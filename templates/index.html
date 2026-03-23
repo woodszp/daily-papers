@@ -19,108 +19,54 @@
             --accent: #10b981;
             --accent-hover: #34d399;
             --border: #27272a;
-            --tag-bg: #27272a;
         }
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
             background: var(--bg-primary);
             color: var(--text-primary);
             min-height: 100vh;
-            line-height: 1.6;
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
             padding: 40px 24px;
         }
 
         header {
             text-align: center;
-            margin-bottom: 48px;
-        }
-
-        .logo {
-            display: inline-flex;
-            align-items: center;
-            gap: 12px;
-            margin-bottom: 16px;
-        }
-
-        .logo-icon {
-            width: 48px;
-            height: 48px;
-            background: linear-gradient(135deg, var(--accent) 0%, #059669 100%);
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 24px;
+            margin-bottom: 40px;
         }
 
         h1 {
             font-size: 2.5rem;
             font-weight: 700;
-            letter-spacing: -0.02em;
             margin-bottom: 12px;
-            background: linear-gradient(135deg, var(--text-primary) 0%, var(--text-secondary) 100%);
+            background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent) 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            background-clip: text;
         }
 
-        .subtitle {
-            color: var(--text-secondary);
-            font-size: 1.125rem;
-            margin-bottom: 24px;
-        }
+        .subtitle { color: var(--text-secondary); margin-bottom: 24px; }
 
-        .stats {
+        /* View Toggle */
+        .view-toggle {
             display: flex;
+            gap: 8px;
             justify-content: center;
-            gap: 32px;
-            flex-wrap: wrap;
-        }
-
-        .stat-item {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            padding: 8px 16px;
-            background: var(--bg-secondary);
-            border-radius: 8px;
-            border: 1px solid var(--border);
-        }
-
-        .stat-value {
-            font-weight: 600;
-            color: var(--accent);
-        }
-
-        .stat-label {
-            color: var(--text-muted);
-            font-size: 0.875rem;
-        }
-
-        .tabs {
-            display: flex;
-            gap: 8px;
-            margin-bottom: 32px;
+            margin-bottom: 24px;
             padding: 4px;
             background: var(--bg-secondary);
             border-radius: 12px;
             width: fit-content;
+            margin: 0 auto 32px;
         }
 
-        .tab {
-            padding: 10px 20px;
+        .view-btn {
+            padding: 10px 24px;
             border-radius: 8px;
             border: none;
             background: transparent;
@@ -128,21 +74,96 @@
             font-size: 0.875rem;
             font-weight: 500;
             cursor: pointer;
-            transition: all 0.2s ease;
+            transition: all 0.2s;
         }
 
-        .tab:hover {
-            color: var(--text-primary);
-        }
-
-        .tab.active {
+        .view-btn.active {
             background: var(--bg-card);
             color: var(--text-primary);
         }
 
+        /* Filters */
+        .filters {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            margin-bottom: 32px;
+            flex-wrap: wrap;
+        }
+
+        .filter-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .filter-label {
+            color: var(--text-muted);
+            font-size: 0.875rem;
+        }
+
+        select {
+            padding: 8px 16px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: var(--text-primary);
+            font-size: 0.875rem;
+            cursor: pointer;
+        }
+
+        .category-tabs {
+            display: flex;
+            gap: 8px;
+            justify-content: center;
+            margin-bottom: 32px;
+            flex-wrap: wrap;
+        }
+
+        .category-tab {
+            padding: 8px 20px;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            background: var(--bg-card);
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .category-tab:hover { border-color: var(--accent); }
+        .category-tab.active {
+            background: var(--accent);
+            color: #000;
+            border-color: var(--accent);
+        }
+
+        /* Stats */
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 20px;
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+
+        .stat-value { font-weight: 700; color: var(--accent); font-size: 1.25rem; }
+        .stat-label { color: var(--text-muted); font-size: 0.875rem; }
+
+        /* Papers Grid */
         .papers-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
             gap: 20px;
         }
 
@@ -151,37 +172,18 @@
             border: 1px solid var(--border);
             border-radius: 16px;
             padding: 24px;
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .paper-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--accent), #059669);
-            opacity: 0;
-            transition: opacity 0.3s ease;
+            transition: all 0.3s;
         }
 
         .paper-card:hover {
             transform: translateY(-4px);
             border-color: var(--accent);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-        }
-
-        .paper-card:hover::before {
-            opacity: 1;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
         }
 
         .paper-category {
             display: inline-block;
             padding: 4px 12px;
-            background: var(--tag-bg);
             border-radius: 6px;
             font-size: 0.75rem;
             font-weight: 500;
@@ -193,7 +195,7 @@
         .paper-category.uav { background: #f59e0b20; color: #f59e0b; }
 
         .paper-title {
-            font-size: 1.125rem;
+            font-size: 1rem;
             font-weight: 600;
             margin-bottom: 8px;
             line-height: 1.4;
@@ -202,12 +204,9 @@
         .paper-title a {
             color: var(--text-primary);
             text-decoration: none;
-            transition: color 0.2s ease;
         }
 
-        .paper-title a:hover {
-            color: var(--accent);
-        }
+        .paper-title a:hover { color: var(--accent); }
 
         .paper-authors {
             font-size: 0.875rem;
@@ -221,16 +220,13 @@
 
         .paper-meta {
             display: flex;
-            align-items: center;
             justify-content: space-between;
+            align-items: center;
             padding-top: 16px;
             border-top: 1px solid var(--border);
         }
 
         .paper-source {
-            display: flex;
-            align-items: center;
-            gap: 8px;
             font-size: 0.75rem;
             color: var(--text-muted);
         }
@@ -245,9 +241,6 @@
         }
 
         .paper-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
             padding: 8px 16px;
             background: var(--accent);
             color: #000;
@@ -255,163 +248,227 @@
             font-size: 0.875rem;
             font-weight: 600;
             text-decoration: none;
-            transition: all 0.2s ease;
         }
 
-        .paper-link:hover {
-            background: var(--accent-hover);
-            transform: scale(1.05);
+        .paper-link:hover { background: var(--accent-hover); }
+
+        /* Analysis Section */
+        .analysis-section {
+            margin-top: 40px;
+            padding: 24px;
+            background: var(--bg-secondary);
+            border-radius: 16px;
+            border: 1px solid var(--border);
         }
 
-        .empty-state {
-            text-align: center;
-            padding: 60px 20px;
+        .analysis-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: var(--accent);
+        }
+
+        .analysis-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 16px;
+        }
+
+        .analysis-item {
+            padding: 16px;
+            background: var(--bg-card);
+            border-radius: 12px;
+        }
+
+        .analysis-label {
+            font-size: 0.75rem;
             color: var(--text-muted);
+            text-transform: uppercase;
+            margin-bottom: 8px;
         }
 
-        .footer {
+        .analysis-value {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+
+        .date-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            background: var(--bg-card);
+            border-radius: 6px;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-right: 4px;
+            margin-bottom: 4px;
+        }
+
+        footer {
             text-align: center;
             margin-top: 60px;
             padding: 24px;
             color: var(--text-muted);
-            font-size: 0.875rem;
             border-top: 1px solid var(--border);
         }
 
-        .footer a {
-            color: var(--accent);
-            text-decoration: none;
-        }
-
         @media (max-width: 768px) {
-            h1 {
-                font-size: 1.75rem;
-            }
-            
-            .papers-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .stats {
-                gap: 12px;
-            }
-            
-            .container {
-                padding: 24px 16px;
-            }
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .paper-card {
-            animation: fadeIn 0.4s ease forwards;
+            .papers-grid { grid-template-columns: 1fr; }
+            h1 { font-size: 1.75rem; }
+            .filters { flex-direction: column; align-items: center; }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <div class="logo">
-                <div class="logo-icon">📄</div>
-                <h1>Daily LLM Quantization Papers</h1>
-            </div>
+            <h1>📄 Daily LLM Quantization Papers</h1>
             <p class="subtitle">Latest research papers on LLM Quantization, Edge Deployment & UAV Vision</p>
-            <div class="stats">
-                <div class="stat-item">
-                    <span class="stat-value" id="total-papers">0</span>
-                    <span class="stat-label">Total Papers</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-value" id="llm-papers">0</span>
-                    <span class="stat-label">LLM Quantization</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-value" id="edge-papers">0</span>
-                    <span class="stat-label">Edge Deployment</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-value" id="uav-papers">0</span>
-                    <span class="stat-label">UAV Vision</span>
-                </div>
-            </div>
         </header>
 
-        <div class="tabs">
-            <button class="tab active" data-filter="all">All Papers</button>
-            <button class="tab" data-filter="LLM Quantization">LLM Quantization</button>
-            <button class="tab" data-filter="Edge Deployment">Edge Deployment</button>
-            <button class="tab" data-filter="UAV Vision">UAV Vision</button>
+        <!-- View Toggle -->
+        <div class="view-toggle">
+            <button class="view-btn {% if view_type == 'latest' %}active{% endif %}" onclick="switchView('latest')">
+                📰 Latest
+            </button>
+            <button class="view-btn {% if view_type == 'date' %}active{% endif %}" onclick="switchView('date')">
+                📅 By Date
+            </button>
+            <button class="view-btn {% if view_type == 'category' %}active{% endif %}" onclick="switchView('category')">
+                🏷️ By Category
+            </button>
         </div>
 
-        <div class="papers-grid" id="papers-grid"></div>
+        <!-- Category Filter (shown for category view) -->
+        {% if view_type == 'category' %}
+        <div class="category-tabs">
+            <button class="category-tab {% if selected_category == 'all' %}active{% endif %}" 
+                    onclick="filterCategory('all')">All</button>
+            <button class="category-tab {% if selected_category == 'LLM Quantization' %}active{% endif %}" 
+                    onclick="filterCategory('LLM Quantization')">LLM Quantization</button>
+            <button class="category-tab {% if selected_category == 'Edge Deployment' %}active{% endif %}" 
+                    onclick="filterCategory('Edge Deployment')">Edge Deployment</button>
+            <button class="category-tab {% if selected_category == 'UAV Vision' %}active{% endif %}" 
+                    onclick="filterCategory('UAV Vision')">UAV Vision</button>
+        </div>
+        {% endif %}
 
-        <footer class="footer">
-            <p>📅 Last updated: 2026-03-18 | Powered by <a href="https://github.com/ZhipingWoods/Awesome-LLM-Quantization">Awesome-LLM-Quantization</a></p>
+        <!-- Date Filter (shown for date view) -->
+        {% if view_type == 'date' %}
+        <div class="filters">
+            <div class="filter-group">
+                <span class="filter-label">Year:</span>
+                <select id="yearSelect" onchange="filterDate()">
+                    <option value="">All</option>
+                    {% for date in available_dates %}
+                    <option value="{{ date.year }}" {% if selected_year == date.year %}selected{% endif %}>{{ date.year }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="filter-group">
+                <span class="filter-label">Month:</span>
+                <select id="monthSelect" onchange="filterDate()">
+                    <option value="">All</option>
+                    {% for m in range(1, 13) %}
+                    <option value="{{ '%02d'|format(m) }}" {% if selected_month == '%02d'|format(m) %}selected{% endif %}>{{ '%02d'|format(m) }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- Stats -->
+        <div class="stats">
+            <div class="stat-item">
+                <span class="stat-value">{{ stats.total }}</span>
+                <span class="stat-label">Total Papers</span>
+            </div>
+            {% for cat, count in stats.categories.items() %}
+            <div class="stat-item">
+                <span class="stat-value">{{ count }}</span>
+                <span class="stat-label">{{ cat }}</span>
+            </div>
+            {% endfor %}
+            <div class="stat-item">
+                <span class="stat-value">{{ stats.last_updated }}</span>
+                <span class="stat-label">Last Updated</span>
+            </div>
+        </div>
+
+        <!-- Papers Grid -->
+        <div class="papers-grid">
+            {% for paper in papers %}
+            <div class="paper-card">
+                <span class="paper-category {{ 'llm' if paper.category == 'LLM Quantization' else 'edge' if paper.category == 'Edge Deployment' else 'uav' }}">
+                    {{ paper.category }}
+                </span>
+                <h3 class="paper-title">
+                    <a href="{{ paper.url }}" target="_blank">{{ paper.title }}</a>
+                </h3>
+                <p class="paper-authors">{{ paper.authors }}</p>
+                <div class="paper-meta">
+                    <div class="paper-source">
+                        <span class="paper-source-badge">{{ paper.source }}</span>
+                        <span>{{ paper.date }}</span>
+                    </div>
+                    <a href="{{ paper.url }}" target="_blank" class="paper-link">Read →</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        {% if papers|length == 0 %}
+        <div style="text-align: center; padding: 60px; color: var(--text-muted);">
+            <p>No papers found for the selected filter.</p>
+        </div>
+        {% endif %}
+
+        <footer>
+            <p>📅 Last updated: {{ stats.last_updated }} | 
+               Powered by <a href="https://github.com/ZhipingWoods/daily-papers" style="color: var(--accent);">daily-papers</a></p>
         </footer>
     </div>
 
     <script>
-        const papersData = {{ papers | tojson }};
-        
-        function createPaperCard(paper, index) {
-            const categoryClass = {
-                'LLM Quantization': 'llm',
-                'Edge Deployment': 'edge',
-                'UAV Vision': 'uav'
-            };
-            
-            return `
-                <div class="paper-card" style="animation-delay: ${index * 0.05}s">
-                    <span class="paper-category ${categoryClass[paper.category] || 'llm'}">${paper.category}</span>
-                    <h3 class="paper-title">
-                        <a href="${paper.url}" target="_blank" rel="noopener">${paper.title}</a>
-                    </h3>
-                    <p class="paper-authors">${paper.authors}</p>
-                    <div class="paper-meta">
-                        <div class="paper-source">
-                            <span class="paper-source-badge">${paper.source}</span>
-                            <span>${paper.date}</span>
-                        </div>
-                        <a href="${paper.url}" target="_blank" rel="noopener" class="paper-link">
-                            Read Paper →
-                        </a>
-                    </div>
-                </div>
-            `;
+        function switchView(view) {
+            const url = new URL(window.location.href);
+            url.searchParams.set('view', view);
+            if (view === 'latest') {
+                url.searchParams.delete('category');
+                url.searchParams.delete('year');
+                url.searchParams.delete('month');
+                url.searchParams.delete('day');
+            }
+            window.location.href = url.toString();
         }
 
-        function renderPapers(filter = 'all') {
-            const grid = document.getElementById('papers-grid');
-            const filtered = filter === 'all' 
-                ? papersData 
-                : papersData.filter(p => p.category === filter);
-            
-            grid.innerHTML = filtered.map((paper, i) => createPaperCard(paper, i)).join('');
-            
-            document.getElementById('total-papers').textContent = papersData.length;
-            document.getElementById('llm-papers').textContent = papersData.filter(p => p.category === 'LLM Quantization').length;
-            document.getElementById('edge-papers').textContent = papersData.filter(p => p.category === 'Edge Deployment').length;
-            document.getElementById('uav-papers').textContent = papersData.filter(p => p.category === 'UAV Vision').length;
+        function filterCategory(category) {
+            const url = new URL(window.location.href);
+            url.searchParams.set('view', 'category');
+            url.searchParams.set('category', category);
+            window.location.href = url.toString();
         }
 
-        document.querySelectorAll('.tab').forEach(tab => {
-            tab.addEventListener('click', () => {
-                document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-                tab.classList.add('active');
-                renderPapers(tab.dataset.filter);
-            });
-        });
-
-        renderPapers();
+        function filterDate() {
+            const year = document.getElementById('yearSelect').value;
+            const month = document.getElementById('monthSelect').value;
+            
+            const url = new URL(window.location.href);
+            url.searchParams.set('view', 'date');
+            
+            if (year) {
+                url.searchParams.set('year', year);
+            } else {
+                url.searchParams.delete('year');
+            }
+            
+            if (month) {
+                url.searchParams.set('month', month);
+            } else {
+                url.searchParams.delete('month');
+            }
+            
+            window.location.href = url.toString();
+        }
     </script>
 </body>
 </html>
