@@ -498,3 +498,30 @@ function showDetail(idx){
   }).catch(e=>{c.innerHTML='<div style="text-align:center;padding:40px;color:#71717a">Error loading</div>';})
 }
 </script>
+
+<script>
+function showDetail(idx){
+  var m=document.getElementById('detailModal'),c=document.getElementById('detailContent');
+  m.style.display='block';c.innerHTML='<div style="text-align:center;padding:40px;">Loading...</div>';
+  fetch('/api/paper/'+idx).then(r=>r.json()).then(d=>{
+    c.innerHTML='<h3 style="margin:0 0 15px;color:#fff">'+d.title+'</h3>'+
+    '<div style="margin:10px 0;padding:12px;background:#141416;border-radius:8px"><div style="color:#10b981;font-size:11px;text-transform:uppercase">Authors</div><div style="color:#a1a1aa">'+d.authors+'</div></div>'+
+    '<div style="margin:10px 0;padding:12px;background:#141416;border-radius:8px"><div style="color:#10b981;font-size:11px;text-transform:uppercase">🎯 Motivation</div><div style="color:#a1a1aa;line-height:1.5">'+d.motivation+'</div></div>'+
+    '<div style="margin:10px 0;padding:12px;background:#141416;border-radius:8px"><div style="color:#10b981;font-size:11px;text-transform:uppercase">💡 Contributions</div><div style="color:#a1a1aa;line-height:1.5">'+d.contributions+'</div></div>'+
+    '<div style="margin:10px 0;padding:12px;background:#141416;border-radius:8px"><div style="color:#10b981;font-size:11px;text-transform:uppercase">📚 Related Work</div><div style="color:#a1a1aa;line-height:1.5">'+d.related_work+'</div></div>'+
+    '<div style="margin:10px 0;padding:12px;background:#141416;border-radius:8px"><div style="color:#10b981;font-size:11px;text-transform:uppercase">🔧 Methodology</div><div style="color:#a1a1aa;line-height:1.5">'+d.method_steps+'</div></div>'+
+    '<div style="margin:10px 0;padding:12px;background:#141416;border-radius:8px"><div style="color:#10b981;font-size:11px;text-transform:uppercase">✅ Why Better</div><div style="color:#a1a1aa;line-height:1.5">'+d.why_better+'</div></div>'+
+    '<div style="margin:10px 0;padding:12px;background:#141416;border-radius:8px"><div style="color:#f59e0b;font-size:11px;text-transform:uppercase">⚠️ Limitations</div><div style="color:#a1a1aa;line-height:1.5">'+d.limitations+'</div></div>'+
+    '<div style="margin:10px 0;padding:12px;background:#141416;border-radius:8px"><div style="color:#10b981;font-size:11px;text-transform:uppercase">🚀 Optimization</div><div style="color:#a1a1aa;line-height:1.5">'+d.optimization+'</div></div>'+
+    '<div style="margin:10px 0;padding:12px;background:#141416;border-radius:8px"><div style="color:#10b981;font-size:11px;text-transform:uppercase">🖼️ Multimodal</div><div style="color:#a1a1aa">'+d.multimodal_support+'</div></div>'+
+    '<div style="margin:10px 0;padding:12px;background:#141416;border-radius:8px"><div style="color:#10b981;font-size:11px;text-transform:uppercase">📄 Abstract</div><div style="color:#a1a1aa;line-height:1.6">'+d.abstract+'</div></div>';
+  });
+}
+</script>
+
+<div id="detailModal" style="display:none;position:fixed;z-index:999;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,0.9);overflow-y:auto;">
+<div style="background:#1c1c1f;margin:5% auto;padding:20px;width:95%;max-width:700px;border-radius:16px;color:#fafafa;max-height:85vh;overflow-y:auto;">
+<span onclick="document.getElementById('detailModal').style.display='none'" style="float:right;font-size:28px;cursor:pointer;color:#71717a;">&times;</span>
+<div id="detailContent" style="padding:10px;"></div>
+</div>
+</div>
