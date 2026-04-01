@@ -11,6 +11,11 @@ from flask import Flask, render_template, jsonify, request
 
 app = Flask(__name__)
 
+# Add enumerate to Jinja2 globals
+@app.context_processor
+def inject_enumerate():
+    return dict(enumerate=enumerate)
+
 # Papers directory - Vercel uses /var/task
 PAPERS_DIR = os.path.join(os.path.dirname(__file__), 'papers')
 
