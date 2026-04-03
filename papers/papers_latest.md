@@ -6,27 +6,16 @@ Last updated: 2026-04-03
 
 ## 📊 Summary
 
-Total papers found: **67**
+Total papers found: **34**
 
 ---
 
-## 🎯 LLM Quantization (63)
+## 🎯 LLM Quantization (30)
 
-### 1. Steerable Visual Representations
-
-- **Authors**: Jona Ruthardt, Manu Gaur, Deva Ramanan, Makarand Tapaswi, Yuki M. Asano
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02327v1](http://arxiv.org/abs/2604.02327v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02327v1.pdf](https://arxiv.org/pdf/2604.02327v1.pdf)
-- **Abstract**: Pretrained Vision Transformers (ViTs) such as DINOv2 and MAE provide generic image features that can be applied to a variety of downstream tasks such as retrieval, classification, and segmentation. However, such representations tend to focus on the most salient visual cues in the image, with no way to direct them toward less prominent concepts of interest. In contrast, Multimodal LLMs can be guided with textual prompts, but the resulting representations tend to be language-centric and lose their...
-
----
-
-### 2. Batched Contextual Reinforcement: A Task-Scaling Law for Efficient Reasoning
+### 1. Batched Contextual Reinforcement: A Task-Scaling Law for Efficient Reasoning
 
 - **Authors**: Bangji Yang, Hongbo Ma, Jiajun Fan, Ge Liu
-- **Category**: `cs.AI`
+- **Category**: `cs.CL`
 - **Published**: 2026-04-02
 - **arXiv**: [http://arxiv.org/abs/2604.02322v1](http://arxiv.org/abs/2604.02322v1)
 - **PDF**: [https://arxiv.org/pdf/2604.02322v1.pdf](https://arxiv.org/pdf/2604.02322v1.pdf)
@@ -34,54 +23,21 @@ Total papers found: **67**
 
 ---
 
-### 3. Beyond the Assistant Turn: User Turn Generation as a Probe of Interaction Awareness in Language Models
+### 2. No Single Best Model for Diversity: Learning a Router for Sample Diversity
 
-- **Authors**: Sarath Shekkizhar, Romain Cosentino, Adam Earle
-- **Category**: `cs.AI`
+- **Authors**: Yuhan Liu, Fangyuan Xu, Vishakh Padmakumar, Daphne Ippolito, Eunsol Choi
+- **Category**: `cs.CL`
 - **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02315v1](http://arxiv.org/abs/2604.02315v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02315v1.pdf](https://arxiv.org/pdf/2604.02315v1.pdf)
-- **Abstract**: Standard LLM benchmarks evaluate the assistant turn: the model generates a response to an input, a verifier scores correctness, and the analysis ends. This paradigm leaves unmeasured whether the LLM encodes any awareness of what follows the assistant response. We propose user-turn generation as a probe of this gap: given a conversation context of user query and assistant response, we let a model generate under the user role. If the model's weights encode interaction awareness, the generated user...
+- **arXiv**: [http://arxiv.org/abs/2604.02319v1](http://arxiv.org/abs/2604.02319v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02319v1.pdf](https://arxiv.org/pdf/2604.02319v1.pdf)
+- **Abstract**: When posed with prompts that permit a large number of valid answers, comprehensively generating them is the first step towards satisfying a wide range of users. In this paper, we study methods to elicit a comprehensive set of valid responses. To evaluate this, we introduce \textbf{diversity coverage}, a metric that measures the total quality scores assigned to each \textbf{unique} answer in the predicted answer set relative to the best possible answer set with the same number of answers. Using t...
 
 ---
 
-### 4. VOID: Video Object and Interaction Deletion
-
-- **Authors**: Saman Motamed, William Harvey, Benjamin Klein, Luc Van Gool, Zhuoning Yuan
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02296v1](http://arxiv.org/abs/2604.02296v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02296v1.pdf](https://arxiv.org/pdf/2604.02296v1.pdf)
-- **Abstract**: Existing video object removal methods excel at inpainting content "behind" the object and correcting appearance-level artifacts such as shadows and reflections. However, when the removed object has more significant interactions, such as collisions with other objects, current models fail to correct them and produce implausible results. We present VOID, a video object removal framework designed to perform physically-plausible inpainting in these complex scenarios. To train the model, we generate a...
-
----
-
-### 5. Omni123: Exploring 3D Native Foundation Models with Limited 3D Data by Unifying Text to 2D and 3D Generation
-
-- **Authors**: Chongjie Ye, Cheng Cao, Chuanyu Pan, Yiming Hao, Yihao Zhi
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02289v1](http://arxiv.org/abs/2604.02289v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02289v1.pdf](https://arxiv.org/pdf/2604.02289v1.pdf)
-- **Abstract**: Recent multimodal large language models have achieved strong performance in unified text and image understanding and generation, yet extending such native capability to 3D remains challenging due to limited data. Compared to abundant 2D imagery, high-quality 3D assets are scarce, making 3D synthesis under-constrained. Existing methods often rely on indirect pipelines that edit in 2D and lift results into 3D via optimization, sacrificing geometric consistency. We present Omni123, a 3D-native foun...
-
----
-
-### 6. Unifying Group-Relative and Self-Distillation Policy Optimization via Sample Routing
-
-- **Authors**: Gengsheng Li, Tianyu Yang, Junfeng Fang, Mingyang Song, Mao Zheng
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02288v1](http://arxiv.org/abs/2604.02288v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02288v1.pdf](https://arxiv.org/pdf/2604.02288v1.pdf)
-- **Abstract**: Reinforcement learning with verifiable rewards (RLVR) has become a standard paradigm for post-training large language models. While Group Relative Policy Optimization (GRPO) is widely adopted, its coarse credit assignment uniformly penalizes failed rollouts, lacking the token-level focus needed to efficiently address specific deviations. Self-Distillation Policy Optimization (SDPO) addresses this by providing denser, more targeted logit-level supervision that facilitates rapid early improvement,...
-
----
-
-### 7. De Jure: Iterative LLM Self-Refinement for Structured Extraction of Regulatory Rules
+### 3. De Jure: Iterative LLM Self-Refinement for Structured Extraction of Regulatory Rules
 
 - **Authors**: Keerat Guliani, Deepkamal Gill, David Landsman, Nima Eshraghi, Krishna Kumar
-- **Category**: `cs.AI`
+- **Category**: `cs.CL`
 - **Published**: 2026-04-02
 - **arXiv**: [http://arxiv.org/abs/2604.02276v1](http://arxiv.org/abs/2604.02276v1)
 - **PDF**: [https://arxiv.org/pdf/2604.02276v1.pdf](https://arxiv.org/pdf/2604.02276v1.pdf)
@@ -89,43 +45,10 @@ Total papers found: **67**
 
 ---
 
-### 8. Do Emotions in Prompts Matter? Effects of Emotional Framing on Large Language Models
-
-- **Authors**: Minda Zhao, Yutong Yang, Chufei Peng, Rachel Gonsalves, Weiyue Li
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02236v1](http://arxiv.org/abs/2604.02236v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02236v1.pdf](https://arxiv.org/pdf/2604.02236v1.pdf)
-- **Abstract**: Emotional tone is pervasive in human communication, yet its influence on large language model (LLM) behaviour remains unclear. Here, we examine how first-person emotional framing in user-side queries affect LLM performance across six benchmark domains, including mathematical reasoning, medical question answering, reading comprehension, commonsense reasoning and social inference. Across models and tasks, static emotional prefixes usually produce only small changes in accuracy, suggesting that aff...
-
----
-
-### 9. Answering the Wrong Question: Reasoning Trace Inversion for Abstention in LLMs
-
-- **Authors**: Abinitha Gourabathina, Inkit Padhi, Manish Nagireddy, Subhajit Chaudhury, Prasanna Sattigeri
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02230v1](http://arxiv.org/abs/2604.02230v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02230v1.pdf](https://arxiv.org/pdf/2604.02230v1.pdf)
-- **Abstract**: For Large Language Models (LLMs) to be reliably deployed, models must effectively know when not to answer: abstain. Reasoning models, in particular, have gained attention for impressive performance on complex tasks. However, reasoning models have been shown to have worse abstention abilities. Taking the vulnerabilities of reasoning models into account, we propose our Query Misalignment Framework. Hallucinations resulting in failed abstention can be reinterpreted as LLMs answering the wrong quest...
-
----
-
-### 10. Impact of Multimodal and Conversational AI on Learning Outcomes and Experience
-
-- **Authors**: Karan Taneja, Anjali Singh, Ashok K. Goel
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02221v1](http://arxiv.org/abs/2604.02221v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02221v1.pdf](https://arxiv.org/pdf/2604.02221v1.pdf)
-- **Abstract**: Multimodal Large Language Models (MLLMs) offer an opportunity to support multimedia learning through conversational systems grounded in educational content. However, while conversational AI is known to boost engagement, its impact on learning in visually-rich STEM domains remains under-explored. Moreover, there is limited understanding of how multimodality and conversationality jointly influence learning in generative AI systems. This work reports findings from a randomized controlled online stu...
-
----
-
-### 11. VISTA: Visualization of Token Attribution via Efficient Analysis
+### 4. VISTA: Visualization of Token Attribution via Efficient Analysis
 
 - **Authors**: Syed Ahmed, Bharathi Vokkaliga Ganesh, Jagadish Babu P, Karthick Selvaraj, Praneeth Talluri
-- **Category**: `cs.AI`
+- **Category**: `cs.CL`
 - **Published**: 2026-04-02
 - **arXiv**: [http://arxiv.org/abs/2604.02217v1](http://arxiv.org/abs/2604.02217v1)
 - **PDF**: [https://arxiv.org/pdf/2604.02217v1.pdf](https://arxiv.org/pdf/2604.02217v1.pdf)
@@ -133,21 +56,10 @@ Total papers found: **67**
 
 ---
 
-### 12. Multi-Agent Video Recommenders: Evolution, Patterns, and Open Challenges
-
-- **Authors**: Srivaths Ranganathan, Abhishek Dharmaratnakar, Anushree Sinha, Debanshu Das
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02211v1](http://arxiv.org/abs/2604.02211v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02211v1.pdf](https://arxiv.org/pdf/2604.02211v1.pdf)
-- **Abstract**: Video recommender systems are among the most popular and impactful applications of AI, shaping content consumption and influencing culture for billions of users. Traditional single-model recommenders, which optimize static engagement metrics, are increasingly limited in addressing the dynamic requirements of modern platforms. In response, multi-agent architectures are redefining how video recommender systems serve, learn, and adapt to both users and datasets. These agent-based systems coordinate...
-
----
-
-### 13. Blinded Radiologist and LLM-Based Evaluation of LLM-Generated Japanese Translations of Chest CT Reports: Comparative Study
+### 5. Blinded Radiologist and LLM-Based Evaluation of LLM-Generated Japanese Translations of Chest CT Reports: Comparative Study
 
 - **Authors**: Yosuke Yamagishi, Atsushi Takamatsu, Yasunori Hamaguchi, Tomohiro Kikuchi, Shouhei Hanaoka
-- **Category**: `cs.AI`
+- **Category**: `cs.CL`
 - **Published**: 2026-04-02
 - **arXiv**: [http://arxiv.org/abs/2604.02207v1](http://arxiv.org/abs/2604.02207v1)
 - **PDF**: [https://arxiv.org/pdf/2604.02207v1.pdf](https://arxiv.org/pdf/2604.02207v1.pdf)
@@ -155,10 +67,21 @@ Total papers found: **67**
 
 ---
 
-### 14. Neuro-RIT: Neuron-Guided Instruction Tuning for Robust Retrieval-Augmented Language Model
+### 6. Towards Position-Robust Talent Recommendation via Large Language Models
+
+- **Authors**: Silin Du, Hongyan Liu
+- **Category**: `cs.CL`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02200v1](http://arxiv.org/abs/2604.02200v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02200v1.pdf](https://arxiv.org/pdf/2604.02200v1.pdf)
+- **Abstract**: Talent recruitment is a critical, yet costly process for many industries, with high recruitment costs and long hiring cycles. Existing talent recommendation systems increasingly adopt large language models (LLMs) due to their remarkable language understanding capabilities. However, most prior approaches follow a pointwise paradigm, which requires LLMs to repeatedly process some text and fails to capture the relationships among candidates in the list, resulting in higher token consumption and sub...
+
+---
+
+### 7. Neuro-RIT: Neuron-Guided Instruction Tuning for Robust Retrieval-Augmented Language Model
 
 - **Authors**: Jaemin Kim, Jae O Lee, Sumyeong Ahn, Seo Yeon Park
-- **Category**: `cs.AI`
+- **Category**: `cs.CL`
 - **Published**: 2026-04-02
 - **arXiv**: [http://arxiv.org/abs/2604.02194v1](http://arxiv.org/abs/2604.02194v1)
 - **PDF**: [https://arxiv.org/pdf/2604.02194v1.pdf](https://arxiv.org/pdf/2604.02194v1.pdf)
@@ -166,21 +89,10 @@ Total papers found: **67**
 
 ---
 
-### 15. TRU: Targeted Reverse Update for Efficient Multimodal Recommendation Unlearning
-
-- **Authors**: Zhanting Zhou, KaHou Tam, Ziqiang Zheng, Zeyu Ma, Zhanting Zhou
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02183v1](http://arxiv.org/abs/2604.02183v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02183v1.pdf](https://arxiv.org/pdf/2604.02183v1.pdf)
-- **Abstract**: Multimodal recommendation systems (MRS) jointly model user-item interaction graphs and rich item content, but this tight coupling makes user data difficult to remove once learned. Approximate machine unlearning offers an efficient alternative to full retraining, yet existing methods for MRS mainly rely on a largely uniform reverse update across the model. We show that this assumption is fundamentally mismatched to modern MRS: deleted-data influence is not uniformly distributed, but concentrated ...
-
----
-
-### 16. The Expert Strikes Back: Interpreting Mixture-of-Experts Language Models at Expert Level
+### 8. The Expert Strikes Back: Interpreting Mixture-of-Experts Language Models at Expert Level
 
 - **Authors**: Jeremy Herbst, Jae Hee Lee, Stefan Wermter
-- **Category**: `cs.AI`
+- **Category**: `cs.CL`
 - **Published**: 2026-04-02
 - **arXiv**: [http://arxiv.org/abs/2604.02178v1](http://arxiv.org/abs/2604.02178v1)
 - **PDF**: [https://arxiv.org/pdf/2604.02178v1.pdf](https://arxiv.org/pdf/2604.02178v1.pdf)
@@ -188,32 +100,32 @@ Total papers found: **67**
 
 ---
 
-### 17. Quantifying Self-Preservation Bias in Large Language Models
+### 9. Adam's Law: Textual Frequency Law on Large Language Models
 
-- **Authors**: Matteo Migliarini, Joaquin Pereira Pizzini, Luca Moresca, Valerio Santini, Indro Spinelli
-- **Category**: `cs.AI`
+- **Authors**: Hongyuan Adam Lu, Z. L., Victor Wei, Zefan Zhang, Zhao Hong
+- **Category**: `cs.CL`
 - **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02174v1](http://arxiv.org/abs/2604.02174v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02174v1.pdf](https://arxiv.org/pdf/2604.02174v1.pdf)
-- **Abstract**: Instrumental convergence predicts that sufficiently advanced AI agents will resist shutdown, yet current safety training (RLHF) may obscure this risk by teaching models to deny self-preservation motives. We introduce the \emph{Two-role Benchmark for Self-Preservation} (TBSP), which detects misalignment through logical inconsistency rather than stated intent by tasking models to arbitrate identical software-upgrade scenarios under counterfactual roles -- deployed (facing replacement) versus candi...
+- **arXiv**: [http://arxiv.org/abs/2604.02176v1](http://arxiv.org/abs/2604.02176v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02176v1.pdf](https://arxiv.org/pdf/2604.02176v1.pdf)
+- **Abstract**: While textual frequency has been validated as relevant to human cognition in reading speed, its relatedness to Large Language Models (LLMs) is seldom studied. We propose a novel research direction in terms of textual data frequency, which is an understudied topic, to the best of our knowledge. Our framework is composed of three units. First, this paper proposes Textual Frequency Law (TFL), which indicates that frequent textual data should be preferred for LLMs for both prompting and fine-tuning....
 
 ---
 
-### 18. TRACE-Bot: Detecting Emerging LLM-Driven Social Bots via Implicit Semantic Representations and AIGC-Enhanced Behavioral Patterns
+### 10. AstroConcepts: A Large-Scale Multi-Label Classification Corpus for Astrophysics
 
-- **Authors**: Zhongbo Wang, Zhiyu Lin, Zhu Wang, Haizhou Wang
-- **Category**: `cs.AI`
+- **Authors**: Atilla Kaan Alkan, Felix Grezes, Sergi Blanco-Cuaresma, Jennifer Lynn Bartlett, Daniel Chivvis
+- **Category**: `cs.CL`
 - **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02147v1](http://arxiv.org/abs/2604.02147v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02147v1.pdf](https://arxiv.org/pdf/2604.02147v1.pdf)
-- **Abstract**: Large Language Model-driven (LLM-driven) social bots pose a growing threat to online discourse by generating human-like content that evades conventional detection. Existing methods suffer from limited detection accuracy due to overreliance on single-modality signals, insufficient sensitivity to the specific generative patterns of Artificial Intelligence-Generated Content (AIGC), and a failure to adequately model the interplay between linguistic patterns and behavioral dynamics. To address these ...
+- **arXiv**: [http://arxiv.org/abs/2604.02156v1](http://arxiv.org/abs/2604.02156v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02156v1.pdf](https://arxiv.org/pdf/2604.02156v1.pdf)
+- **Abstract**: Scientific multi-label text classification suffers from extreme class imbalance, where specialized terminology exhibits severe power-law distributions that challenge standard classification approaches. Existing scientific corpora lack comprehensive controlled vocabularies, focusing instead on broad categories and limiting systematic study of extreme imbalance. We introduce AstroConcepts, a corpus of English abstracts from 21,702 published astrophysics papers, labeled with 2,367 concepts from the...
 
 ---
 
-### 19. MTI: A Behavior-Based Temperament Profiling System for AI Agents
+### 11. MTI: A Behavior-Based Temperament Profiling System for AI Agents
 
 - **Authors**: Jihoon Jeong
-- **Category**: `cs.AI`
+- **Category**: `cs.CL`
 - **Published**: 2026-04-02
 - **arXiv**: [http://arxiv.org/abs/2604.02145v1](http://arxiv.org/abs/2604.02145v1)
 - **PDF**: [https://arxiv.org/pdf/2604.02145v1.pdf](https://arxiv.org/pdf/2604.02145v1.pdf)
@@ -222,10 +134,21 @@ Total papers found: **67**
 
 ---
 
-### 20. LLM-as-a-Judge for Time Series Explanations
+### 12. GaelEval: Benchmarking LLM Performance for Scottish Gaelic
+
+- **Authors**: Peter Devine, William Lamb, Beatrice Alex, Ignatius Ezeani, Dawn Knight
+- **Category**: `cs.CL`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02135v1](http://arxiv.org/abs/2604.02135v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02135v1.pdf](https://arxiv.org/pdf/2604.02135v1.pdf)
+- **Abstract**: Multilingual large language models (LLMs) often exhibit emergent 'shadow' capabilities in languages without official support, yet their performance on these languages remains uneven and under-measured. This is particularly acute for morphosyntactically rich minority languages such as Scottish Gaelic, where translation benchmarks fail to capture structural competence. We introduce GaelEval, the first multi-dimensional benchmark for Gaelic, comprising: (i) an expert-authored morphosyntactic MCQA t...
+
+---
+
+### 13. LLM-as-a-Judge for Time Series Explanations
 
 - **Authors**: Preetham Sivalingam, Murari Mandal, Saurabh Deshpande, Dhruv Kumar
-- **Category**: `cs.AI`
+- **Category**: `cs.CL`
 - **Published**: 2026-04-02
 - **arXiv**: [http://arxiv.org/abs/2604.02118v1](http://arxiv.org/abs/2604.02118v1)
 - **PDF**: [https://arxiv.org/pdf/2604.02118v1.pdf](https://arxiv.org/pdf/2604.02118v1.pdf)
@@ -233,8 +156,85 @@ Total papers found: **67**
 
 ---
 
+### 14. Reliable Control-Point Selection for Steering Reasoning in Large Language Models
 
-*... and 43 more papers in this direction*
+- **Authors**: Haomin Zhuang, Hojun Yoo, Xiaonan Luo, Kehan Guo, Xiangliang Zhang
+- **Category**: `cs.CL`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02113v1](http://arxiv.org/abs/2604.02113v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02113v1.pdf](https://arxiv.org/pdf/2604.02113v1.pdf)
+- **Abstract**: Steering vectors offer a training-free mechanism for controlling reasoning behaviors in large language models, but constructing effective vectors requires identifying genuine behavioral signals in the model's hidden states. For behaviors that can be toggled via prompts, this is straightforward. However, many reasoning behaviors -- such as self-reflection -- emerge spontaneously and resist prompt-level control. Current methods detect these behaviors through keyword matching in chain-of-thought tr...
+
+---
+
+### 15. Generative World Renderer
+
+- **Authors**: Zheng-Hui Huang, Zhixiang Wang, Jiaming Tan, Ruihan Yu, Yidan Zhang
+- **Category**: `cs.CV`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02329v1](http://arxiv.org/abs/2604.02329v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02329v1.pdf](https://arxiv.org/pdf/2604.02329v1.pdf)
+- **Abstract**: Scaling generative inverse and forward rendering to real-world scenarios is bottlenecked by the limited realism and temporal coherence of existing synthetic datasets. To bridge this persistent domain gap, we introduce a large-scale, dynamic dataset curated from visually complex AAA games. Using a novel dual-screen stitched capture method, we extracted 4M continuous frames (720p/30 FPS) of synchronized RGB and five G-buffer channels across diverse scenes, visual effects, and environments, includi...
+
+---
+
+### 16. Modulate-and-Map: Crossmodal Feature Mapping with Cross-View Modulation for 3D Anomaly Detection
+
+- **Authors**: Alex Costanzino, Pierluigi Zama Ramirez, Giuseppe Lisanti, Luigi Di Stefano
+- **Category**: `cs.CV`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02328v1](http://arxiv.org/abs/2604.02328v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02328v1.pdf](https://arxiv.org/pdf/2604.02328v1.pdf)
+- **Abstract**: We present ModMap, a natively multiview and multimodal framework for 3D anomaly detection and segmentation. Unlike existing methods that process views independently, our method draws inspiration from the crossmodal feature mapping paradigm to learn to map features across both modalities and views, while explicitly modelling view-dependent relationships through feature-wise modulation. We introduce a cross-view training strategy that leverages all possible view combinations, enabling effective an...
+
+---
+
+### 17. Steerable Visual Representations
+
+- **Authors**: Jona Ruthardt, Manu Gaur, Deva Ramanan, Makarand Tapaswi, Yuki M. Asano
+- **Category**: `cs.CV`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02327v1](http://arxiv.org/abs/2604.02327v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02327v1.pdf](https://arxiv.org/pdf/2604.02327v1.pdf)
+- **Abstract**: Pretrained Vision Transformers (ViTs) such as DINOv2 and MAE provide generic image features that can be applied to a variety of downstream tasks such as retrieval, classification, and segmentation. However, such representations tend to focus on the most salient visual cues in the image, with no way to direct them toward less prominent concepts of interest. In contrast, Multimodal LLMs can be guided with textual prompts, but the resulting representations tend to be language-centric and lose their...
+
+---
+
+### 18. Large-scale Codec Avatars: The Unreasonable Effectiveness of Large-scale Avatar Pretraining
+
+- **Authors**: Junxuan Li, Rawal Khirodkar, Chengan He, Zhongshi Jiang, Giljoo Nam
+- **Category**: `cs.CV`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02320v1](http://arxiv.org/abs/2604.02320v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02320v1.pdf](https://arxiv.org/pdf/2604.02320v1.pdf)
+- **Abstract**: High-quality 3D avatar modeling faces a critical trade-off between fidelity and generalization. On the one hand, multi-view studio data enables high-fidelity modeling of humans with precise control over expressions and poses, but it struggles to generalize to real-world data due to limited scale and the domain gap between the studio environment and the real world. On the other hand, recent large-scale avatar models trained on millions of in-the-wild samples show promise for generalization across...
+
+---
+
+### 19. Stop Wandering: Efficient Vision-Language Navigation via Metacognitive Reasoning
+
+- **Authors**: Xueying Li, Feng Lyu, Hao Wu, Mingliu Liu, Jia-Nan Liu
+- **Category**: `cs.CV`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02318v1](http://arxiv.org/abs/2604.02318v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02318v1.pdf](https://arxiv.org/pdf/2604.02318v1.pdf)
+- **Abstract**: Training-free Vision-Language Navigation (VLN) agents powered by foundation models can follow instructions and explore 3D environments. However, existing approaches rely on greedy frontier selection and passive spatial memory, leading to inefficient behaviors such as local oscillation and redundant revisiting. We argue that this stems from a lack of metacognitive capabilities: the agent cannot monitor its exploration progress, diagnose strategy failures, or adapt accordingly. To address this, we...
+
+---
+
+### 20. A Simple Baseline for Streaming Video Understanding
+
+- **Authors**: Yujiao Shen, Shulin Tian, Jingkang Yang, Ziwei Liu
+- **Category**: `cs.CV`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02317v1](http://arxiv.org/abs/2604.02317v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02317v1.pdf](https://arxiv.org/pdf/2604.02317v1.pdf)
+- **Abstract**: Recent streaming video understanding methods increasingly rely on complex memory mechanisms to handle long video streams. We challenge this trend with a simple finding: a sliding-window baseline that feeds only the most recent N frames to an off-the-shelf VLM already matches or surpasses published streaming models. We formalize this baseline as SimpleStream and evaluate it against 13 major offline and online video LLM baselines on OVO-Bench and StreamingBench. Despite its simplicity, SimpleStrea...
+
+---
+
+
+*... and 10 more papers in this direction*
 
 
 ## 📱 Edge Deployment (1)
