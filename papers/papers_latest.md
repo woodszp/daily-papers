@@ -6,11 +6,11 @@ Last updated: 2026-04-03
 
 ## 📊 Summary
 
-Total papers found: **92**
+Total papers found: **82**
 
 ---
 
-## 🎯 LLM Quantization (82)
+## 🎯 LLM Quantization (75)
 
 ### 1. Steerable Visual Representations
 
@@ -234,10 +234,10 @@ Total papers found: **92**
 ---
 
 
-*... and 62 more papers in this direction*
+*... and 55 more papers in this direction*
 
 
-## 📱 Edge Deployment (3)
+## 📱 Edge Deployment (2)
 
 ### 1. Diff-KD: Diffusion-based Knowledge Distillation for Collaborative Perception under Corruptions
 
@@ -261,19 +261,8 @@ Total papers found: **92**
 
 ---
 
-### 3. Bridging Discrete Planning and Continuous Execution for Redundant Robot
 
-- **Authors**: Teng Yan, Yue Yu, Yihan Liu, Bingzhuo Zhong
-- **Category**: `cs.RO`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02021v1](http://arxiv.org/abs/2604.02021v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02021v1.pdf](https://arxiv.org/pdf/2604.02021v1.pdf)
-- **Abstract**: Voxel-grid reinforcement learning is widely adopted for path planning in redundant manipulators due to its simplicity and reproducibility. However, direct execution through point-wise numerical inverse kinematics on 7-DoF arms often yields step-size jitter, abrupt joint transitions, and instability near singular configurations. This work proposes a bridging framework between discrete planning and continuous execution without modifying the discrete planner itself. On the planning side, step-norma...
-
----
-
-
-## 🚁 UAV Vision (7)
+## 🚁 UAV Vision (5)
 
 ### 1. CoRegOVCD: Consistency-Regularized Open-Vocabulary Change Detection
 
@@ -297,29 +286,7 @@ Total papers found: **92**
 
 ---
 
-### 3. Decouple and Rectify: Semantics-Preserving Structural Enhancement for Open-Vocabulary Remote Sensing Segmentation
-
-- **Authors**: Jie Feng, Fengze Li, Junpeng Zhang, Siyu Chen, Yuping Liang
-- **Category**: `cs.CV`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02010v1](http://arxiv.org/abs/2604.02010v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02010v1.pdf](https://arxiv.org/pdf/2604.02010v1.pdf)
-- **Abstract**: Open-vocabulary semantic segmentation in the remote sensing (RS) field requires both language-aligned recognition and fine-grained spatial delineation. Although CLIP offers robust semantic generalization, its global-aligned visual representations inherently struggle to capture structural details. Recent methods attempt to compensate for this by introducing RS-pretrained DINO features. However, these methods treat CLIP representations as a monolithic semantic space and cannot localize where struc...
-
----
-
-### 4. ProDiG: Progressive Diffusion-Guided Gaussian Splatting for Aerial to Ground Reconstruction
-
-- **Authors**: Sirshapan Mitra, Yogesh S. Rawat
-- **Category**: `cs.CV`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02003v1](http://arxiv.org/abs/2604.02003v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02003v1.pdf](https://arxiv.org/pdf/2604.02003v1.pdf)
-- **Abstract**: Generating ground-level views and coherent 3D site models from aerial-only imagery is challenging due to extreme viewpoint changes, missing intermediate observations, and large scale variations. Existing methods either refine renderings post-hoc, often producing geometrically inconsistent results, or rely on multi-altitude ground-truth, which is rarely available. Gaussian Splatting and diffusion-based refinements improve fidelity under small variations but fail under wide aerial-to-ground gaps. ...
-
----
-
-### 5. IndoorCrowd: A Multi-Scene Dataset for Human Detection, Segmentation, and Tracking with an Automated Annotation Pipeline
+### 3. IndoorCrowd: A Multi-Scene Dataset for Human Detection, Segmentation, and Tracking with an Automated Annotation Pipeline
 
 - **Authors**: Sebastian-Ion Nae, Radu Moldoveanu, Alexandra Stefania Ghita, Adina Magda Florea
 - **Category**: `cs.LG`
@@ -330,7 +297,7 @@ Total papers found: **92**
 
 ---
 
-### 6. PRO-SPECT: Probabilistically Safe Scalable Planning for Energy-Aware Coordinated UAV-UGV Teams in Stochastic Environments
+### 4. PRO-SPECT: Probabilistically Safe Scalable Planning for Energy-Aware Coordinated UAV-UGV Teams in Stochastic Environments
 
 - **Authors**: Roger Fowler, Cahit Ikbal Er, Benjamin Johnsenberg, Yasin Yazicioglu
 - **Category**: `cs.RO`
@@ -341,7 +308,7 @@ Total papers found: **92**
 
 ---
 
-### 7. ROS 2-Based LiDAR Perception Framework for Mobile Robots in Dynamic Production Environments, Utilizing Synthetic Data Generation, Transformation-Equivariant 3D Detection and Multi-Object Tracking
+### 5. ROS 2-Based LiDAR Perception Framework for Mobile Robots in Dynamic Production Environments, Utilizing Synthetic Data Generation, Transformation-Equivariant 3D Detection and Multi-Object Tracking
 
 - **Authors**: Lukas Bergs, Tan Chung, Marmik Thakkar, Alexander Moriz, Amon Göppert
 - **Category**: `cs.RO`
