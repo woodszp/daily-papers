@@ -6,11 +6,11 @@ Last updated: 2026-04-04
 
 ## 📊 Summary
 
-Total papers found: **21**
+Total papers found: **14**
 
 ---
 
-## 🎯 LLM Quantization (20)
+## 🎯 LLM Quantization (13)
 
 ### 1. Steerable Visual Representations
 
@@ -45,40 +45,7 @@ Total papers found: **21**
 
 ---
 
-### 4. VOID: Video Object and Interaction Deletion
-
-- **Authors**: Saman Motamed, William Harvey, Benjamin Klein, Luc Van Gool, Zhuoning Yuan
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02296v1](http://arxiv.org/abs/2604.02296v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02296v1.pdf](https://arxiv.org/pdf/2604.02296v1.pdf)
-- **Abstract**: Existing video object removal methods excel at inpainting content "behind" the object and correcting appearance-level artifacts such as shadows and reflections. However, when the removed object has more significant interactions, such as collisions with other objects, current models fail to correct them and produce implausible results. We present VOID, a video object removal framework designed to perform physically-plausible inpainting in these complex scenarios. To train the model, we generate a...
-
----
-
-### 5. Omni123: Exploring 3D Native Foundation Models with Limited 3D Data by Unifying Text to 2D and 3D Generation
-
-- **Authors**: Chongjie Ye, Cheng Cao, Chuanyu Pan, Yiming Hao, Yihao Zhi
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02289v1](http://arxiv.org/abs/2604.02289v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02289v1.pdf](https://arxiv.org/pdf/2604.02289v1.pdf)
-- **Abstract**: Recent multimodal large language models have achieved strong performance in unified text and image understanding and generation, yet extending such native capability to 3D remains challenging due to limited data. Compared to abundant 2D imagery, high-quality 3D assets are scarce, making 3D synthesis under-constrained. Existing methods often rely on indirect pipelines that edit in 2D and lift results into 3D via optimization, sacrificing geometric consistency. We present Omni123, a 3D-native foun...
-
----
-
-### 6. Unifying Group-Relative and Self-Distillation Policy Optimization via Sample Routing
-
-- **Authors**: Gengsheng Li, Tianyu Yang, Junfeng Fang, Mingyang Song, Mao Zheng
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02288v1](http://arxiv.org/abs/2604.02288v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02288v1.pdf](https://arxiv.org/pdf/2604.02288v1.pdf)
-- **Abstract**: Reinforcement learning with verifiable rewards (RLVR) has become a standard paradigm for post-training large language models. While Group Relative Policy Optimization (GRPO) is widely adopted, its coarse credit assignment uniformly penalizes failed rollouts, lacking the token-level focus needed to efficiently address specific deviations. Self-Distillation Policy Optimization (SDPO) addresses this by providing denser, more targeted logit-level supervision that facilitates rapid early improvement,...
-
----
-
-### 7. Batched Contextual Reinforcement: A Task-Scaling Law for Efficient Reasoning
+### 4. Batched Contextual Reinforcement: A Task-Scaling Law for Efficient Reasoning
 
 - **Authors**: Bangji Yang, Hongbo Ma, Jiajun Fan, Ge Liu
 - **Category**: `cs.CL`
@@ -89,7 +56,7 @@ Total papers found: **21**
 
 ---
 
-### 8. No Single Best Model for Diversity: Learning a Router for Sample Diversity
+### 5. No Single Best Model for Diversity: Learning a Router for Sample Diversity
 
 - **Authors**: Yuhan Liu, Fangyuan Xu, Vishakh Padmakumar, Daphne Ippolito, Eunsol Choi
 - **Category**: `cs.CL`
@@ -100,7 +67,7 @@ Total papers found: **21**
 
 ---
 
-### 9. Generative World Renderer
+### 6. Generative World Renderer
 
 - **Authors**: Zheng-Hui Huang, Zhixiang Wang, Jiaming Tan, Ruihan Yu, Yidan Zhang
 - **Category**: `cs.CV`
@@ -111,7 +78,7 @@ Total papers found: **21**
 
 ---
 
-### 10. Modulate-and-Map: Crossmodal Feature Mapping with Cross-View Modulation for 3D Anomaly Detection
+### 7. Modulate-and-Map: Crossmodal Feature Mapping with Cross-View Modulation for 3D Anomaly Detection
 
 - **Authors**: Alex Costanzino, Pierluigi Zama Ramirez, Giuseppe Lisanti, Luigi Di Stefano
 - **Category**: `cs.CV`
@@ -122,7 +89,7 @@ Total papers found: **21**
 
 ---
 
-### 11. Steerable Visual Representations
+### 8. Steerable Visual Representations
 
 - **Authors**: Jona Ruthardt, Manu Gaur, Deva Ramanan, Makarand Tapaswi, Yuki M. Asano
 - **Category**: `cs.CV`
@@ -133,7 +100,7 @@ Total papers found: **21**
 
 ---
 
-### 12. Large-scale Codec Avatars: The Unreasonable Effectiveness of Large-scale Avatar Pretraining
+### 9. Large-scale Codec Avatars: The Unreasonable Effectiveness of Large-scale Avatar Pretraining
 
 - **Authors**: Junxuan Li, Rawal Khirodkar, Chengan He, Zhongshi Jiang, Giljoo Nam
 - **Category**: `cs.CV`
@@ -144,7 +111,7 @@ Total papers found: **21**
 
 ---
 
-### 13. Stop Wandering: Efficient Vision-Language Navigation via Metacognitive Reasoning
+### 10. Stop Wandering: Efficient Vision-Language Navigation via Metacognitive Reasoning
 
 - **Authors**: Xueying Li, Feng Lyu, Hao Wu, Mingliu Liu, Jia-Nan Liu
 - **Category**: `cs.CV`
@@ -155,7 +122,7 @@ Total papers found: **21**
 
 ---
 
-### 14. A Simple Baseline for Streaming Video Understanding
+### 11. A Simple Baseline for Streaming Video Understanding
 
 - **Authors**: Yujiao Shen, Shulin Tian, Jingkang Yang, Ziwei Liu
 - **Category**: `cs.CV`
@@ -166,29 +133,7 @@ Total papers found: **21**
 
 ---
 
-### 15. VOID: Video Object and Interaction Deletion
-
-- **Authors**: Saman Motamed, William Harvey, Benjamin Klein, Luc Van Gool, Zhuoning Yuan
-- **Category**: `cs.CV`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02296v1](http://arxiv.org/abs/2604.02296v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02296v1.pdf](https://arxiv.org/pdf/2604.02296v1.pdf)
-- **Abstract**: Existing video object removal methods excel at inpainting content "behind" the object and correcting appearance-level artifacts such as shadows and reflections. However, when the removed object has more significant interactions, such as collisions with other objects, current models fail to correct them and produce implausible results. We present VOID, a video object removal framework designed to perform physically-plausible inpainting in these complex scenarios. To train the model, we generate a...
-
----
-
-### 16. Omni123: Exploring 3D Native Foundation Models with Limited 3D Data by Unifying Text to 2D and 3D Generation
-
-- **Authors**: Chongjie Ye, Cheng Cao, Chuanyu Pan, Yiming Hao, Yihao Zhi
-- **Category**: `cs.CV`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02289v1](http://arxiv.org/abs/2604.02289v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02289v1.pdf](https://arxiv.org/pdf/2604.02289v1.pdf)
-- **Abstract**: Recent multimodal large language models have achieved strong performance in unified text and image understanding and generation, yet extending such native capability to 3D remains challenging due to limited data. Compared to abundant 2D imagery, high-quality 3D assets are scarce, making 3D synthesis under-constrained. Existing methods often rely on indirect pipelines that edit in 2D and lift results into 3D via optimization, sacrificing geometric consistency. We present Omni123, a 3D-native foun...
-
----
-
-### 17. Batched Contextual Reinforcement: A Task-Scaling Law for Efficient Reasoning
+### 12. Batched Contextual Reinforcement: A Task-Scaling Law for Efficient Reasoning
 
 - **Authors**: Bangji Yang, Hongbo Ma, Jiajun Fan, Ge Liu
 - **Category**: `cs.LG`
@@ -199,29 +144,7 @@ Total papers found: **21**
 
 ---
 
-### 18. Taming the Exponential: A Fast Softmax Surrogate for Integer-Native Edge Inference
-
-- **Authors**: Dimitrios Danopoulos, Enrico Lupi, Michael Kagan, Maurizio Pierini
-- **Category**: `cs.LG`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02292v1](http://arxiv.org/abs/2604.02292v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02292v1.pdf](https://arxiv.org/pdf/2604.02292v1.pdf)
-- **Abstract**: Softmax can become a computational bottleneck in the Transformer model's Multi-Head Attention (MHA) block, particularly in small models under low-precision inference, where exponentiation and normalization incur significant overhead. As such, we suggest using Head-Calibrated Clipped-Linear Softmax (HCCS), a bounded, monotone surrogate to the exponential softmax function, which uses a clipped linear mapping of the max centered attention logits. This approximation produces a stable probability dis...
-
----
-
-### 19. Unifying Group-Relative and Self-Distillation Policy Optimization via Sample Routing
-
-- **Authors**: Gengsheng Li, Tianyu Yang, Junfeng Fang, Mingyang Song, Mao Zheng
-- **Category**: `cs.LG`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02288v1](http://arxiv.org/abs/2604.02288v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02288v1.pdf](https://arxiv.org/pdf/2604.02288v1.pdf)
-- **Abstract**: Reinforcement learning with verifiable rewards (RLVR) has become a standard paradigm for post-training large language models. While Group Relative Policy Optimization (GRPO) is widely adopted, its coarse credit assignment uniformly penalizes failed rollouts, lacking the token-level focus needed to efficiently address specific deviations. Self-Distillation Policy Optimization (SDPO) addresses this by providing denser, more targeted logit-level supervision that facilitates rapid early improvement,...
-
----
-
-### 20. Stop Wandering: Efficient Vision-Language Navigation via Metacognitive Reasoning
+### 13. Stop Wandering: Efficient Vision-Language Navigation via Metacognitive Reasoning
 
 - **Authors**: Xueying Li, Feng Lyu, Hao Wu, Mingliu Liu, Jia-Nan Liu
 - **Category**: `cs.RO`
