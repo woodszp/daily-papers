@@ -6,7 +6,7 @@ Last updated: 2026-04-03
 
 ## 📊 Summary
 
-Total papers found: **107**
+Total papers found: **106**
 
 ---
 
@@ -237,7 +237,7 @@ Total papers found: **107**
 *... and 75 more papers in this direction*
 
 
-## 📱 Edge Deployment (4)
+## 📱 Edge Deployment (3)
 
 ### 1. Diff-KD: Diffusion-based Knowledge Distillation for Collaborative Perception under Corruptions
 
@@ -261,19 +261,7 @@ Total papers found: **107**
 
 ---
 
-### 3. DDCL-INCRT: A Self-Organising Transformer with Hierarchical Prototype Structure (Theoretical Foundations)
-
-- **Authors**: Giansalvo Cirrincione
-- **Category**: `cs.NE`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.01880v1](http://arxiv.org/abs/2604.01880v1)
-- **PDF**: [https://arxiv.org/pdf/2604.01880v1.pdf](https://arxiv.org/pdf/2604.01880v1.pdf)
-- **Abstract**: Modern neural networks of the transformer family require the practitioner to decide, before training begins, how many attention heads to use, how deep the network should be, and how wide each component should be. These decisions are made without knowledge of the task, producing architectures that are systematically larger than necessary: empirical studies find that a substantial fraction of heads and layers can be removed after training without performance loss.
-  This paper introduces DDCL-INCR...
-
----
-
-### 4. Bridging Discrete Planning and Continuous Execution for Redundant Robot
+### 3. Bridging Discrete Planning and Continuous Execution for Redundant Robot
 
 - **Authors**: Teng Yan, Yue Yu, Yihan Liu, Bingzhuo Zhong
 - **Category**: `cs.RO`
