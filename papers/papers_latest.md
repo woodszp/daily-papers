@@ -6,13 +6,134 @@ Last updated: 2026-04-03
 
 ## 📊 Summary
 
-Total papers found: **123**
+Total papers found: **118**
 
 ---
 
-## 🎯 LLM Quantization (107)
+## 🎯 LLM Quantization (105)
 
-### 1. Multi-Agent Video Recommenders: Evolution, Patterns, and Open Challenges
+### 1. Steerable Visual Representations
+
+- **Authors**: Jona Ruthardt, Manu Gaur, Deva Ramanan, Makarand Tapaswi, Yuki M. Asano
+- **Category**: `cs.AI`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02327v1](http://arxiv.org/abs/2604.02327v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02327v1.pdf](https://arxiv.org/pdf/2604.02327v1.pdf)
+- **Abstract**: Pretrained Vision Transformers (ViTs) such as DINOv2 and MAE provide generic image features that can be applied to a variety of downstream tasks such as retrieval, classification, and segmentation. However, such representations tend to focus on the most salient visual cues in the image, with no way to direct them toward less prominent concepts of interest. In contrast, Multimodal LLMs can be guided with textual prompts, but the resulting representations tend to be language-centric and lose their...
+
+---
+
+### 2. Batched Contextual Reinforcement: A Task-Scaling Law for Efficient Reasoning
+
+- **Authors**: Bangji Yang, Hongbo Ma, Jiajun Fan, Ge Liu
+- **Category**: `cs.AI`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02322v1](http://arxiv.org/abs/2604.02322v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02322v1.pdf](https://arxiv.org/pdf/2604.02322v1.pdf)
+- **Abstract**: Large Language Models employing Chain-of-Thought reasoning achieve strong performance but suffer from excessive token consumption that inflates inference costs. Existing efficiency methods such as explicit length penalties, difficulty estimators, or multi-stage curricula either degrade reasoning quality or require complex training pipelines. We introduce Batched Contextual Reinforcement, a minimalist, single-stage training paradigm that unlocks efficient reasoning through a simple structural mod...
+
+---
+
+### 3. Beyond the Assistant Turn: User Turn Generation as a Probe of Interaction Awareness in Language Models
+
+- **Authors**: Sarath Shekkizhar, Romain Cosentino, Adam Earle
+- **Category**: `cs.AI`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02315v1](http://arxiv.org/abs/2604.02315v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02315v1.pdf](https://arxiv.org/pdf/2604.02315v1.pdf)
+- **Abstract**: Standard LLM benchmarks evaluate the assistant turn: the model generates a response to an input, a verifier scores correctness, and the analysis ends. This paradigm leaves unmeasured whether the LLM encodes any awareness of what follows the assistant response. We propose user-turn generation as a probe of this gap: given a conversation context of user query and assistant response, we let a model generate under the user role. If the model's weights encode interaction awareness, the generated user...
+
+---
+
+### 4. VOID: Video Object and Interaction Deletion
+
+- **Authors**: Saman Motamed, William Harvey, Benjamin Klein, Luc Van Gool, Zhuoning Yuan
+- **Category**: `cs.AI`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02296v1](http://arxiv.org/abs/2604.02296v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02296v1.pdf](https://arxiv.org/pdf/2604.02296v1.pdf)
+- **Abstract**: Existing video object removal methods excel at inpainting content "behind" the object and correcting appearance-level artifacts such as shadows and reflections. However, when the removed object has more significant interactions, such as collisions with other objects, current models fail to correct them and produce implausible results. We present VOID, a video object removal framework designed to perform physically-plausible inpainting in these complex scenarios. To train the model, we generate a...
+
+---
+
+### 5. Omni123: Exploring 3D Native Foundation Models with Limited 3D Data by Unifying Text to 2D and 3D Generation
+
+- **Authors**: Chongjie Ye, Cheng Cao, Chuanyu Pan, Yiming Hao, Yihao Zhi
+- **Category**: `cs.AI`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02289v1](http://arxiv.org/abs/2604.02289v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02289v1.pdf](https://arxiv.org/pdf/2604.02289v1.pdf)
+- **Abstract**: Recent multimodal large language models have achieved strong performance in unified text and image understanding and generation, yet extending such native capability to 3D remains challenging due to limited data. Compared to abundant 2D imagery, high-quality 3D assets are scarce, making 3D synthesis under-constrained. Existing methods often rely on indirect pipelines that edit in 2D and lift results into 3D via optimization, sacrificing geometric consistency. We present Omni123, a 3D-native foun...
+
+---
+
+### 6. Unifying Group-Relative and Self-Distillation Policy Optimization via Sample Routing
+
+- **Authors**: Gengsheng Li, Tianyu Yang, Junfeng Fang, Mingyang Song, Mao Zheng
+- **Category**: `cs.AI`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02288v1](http://arxiv.org/abs/2604.02288v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02288v1.pdf](https://arxiv.org/pdf/2604.02288v1.pdf)
+- **Abstract**: Reinforcement learning with verifiable rewards (RLVR) has become a standard paradigm for post-training large language models. While Group Relative Policy Optimization (GRPO) is widely adopted, its coarse credit assignment uniformly penalizes failed rollouts, lacking the token-level focus needed to efficiently address specific deviations. Self-Distillation Policy Optimization (SDPO) addresses this by providing denser, more targeted logit-level supervision that facilitates rapid early improvement,...
+
+---
+
+### 7. De Jure: Iterative LLM Self-Refinement for Structured Extraction of Regulatory Rules
+
+- **Authors**: Keerat Guliani, Deepkamal Gill, David Landsman, Nima Eshraghi, Krishna Kumar
+- **Category**: `cs.AI`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02276v1](http://arxiv.org/abs/2604.02276v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02276v1.pdf](https://arxiv.org/pdf/2604.02276v1.pdf)
+- **Abstract**: Regulatory documents encode legally binding obligations that LLM-based systems must respect. Yet converting dense, hierarchically structured legal text into machine-readable rules remains a costly, expert-intensive process. We present De Jure, a fully automated, domain-agnostic pipeline for extracting structured regulatory rules from raw documents, requiring no human annotation, domain-specific prompting, or annotated gold data. De Jure operates through four sequential stages: normalization of s...
+
+---
+
+### 8. Do Emotions in Prompts Matter? Effects of Emotional Framing on Large Language Models
+
+- **Authors**: Minda Zhao, Yutong Yang, Chufei Peng, Rachel Gonsalves, Weiyue Li
+- **Category**: `cs.AI`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02236v1](http://arxiv.org/abs/2604.02236v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02236v1.pdf](https://arxiv.org/pdf/2604.02236v1.pdf)
+- **Abstract**: Emotional tone is pervasive in human communication, yet its influence on large language model (LLM) behaviour remains unclear. Here, we examine how first-person emotional framing in user-side queries affect LLM performance across six benchmark domains, including mathematical reasoning, medical question answering, reading comprehension, commonsense reasoning and social inference. Across models and tasks, static emotional prefixes usually produce only small changes in accuracy, suggesting that aff...
+
+---
+
+### 9. Answering the Wrong Question: Reasoning Trace Inversion for Abstention in LLMs
+
+- **Authors**: Abinitha Gourabathina, Inkit Padhi, Manish Nagireddy, Subhajit Chaudhury, Prasanna Sattigeri
+- **Category**: `cs.AI`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02230v1](http://arxiv.org/abs/2604.02230v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02230v1.pdf](https://arxiv.org/pdf/2604.02230v1.pdf)
+- **Abstract**: For Large Language Models (LLMs) to be reliably deployed, models must effectively know when not to answer: abstain. Reasoning models, in particular, have gained attention for impressive performance on complex tasks. However, reasoning models have been shown to have worse abstention abilities. Taking the vulnerabilities of reasoning models into account, we propose our Query Misalignment Framework. Hallucinations resulting in failed abstention can be reinterpreted as LLMs answering the wrong quest...
+
+---
+
+### 10. Impact of Multimodal and Conversational AI on Learning Outcomes and Experience
+
+- **Authors**: Karan Taneja, Anjali Singh, Ashok K. Goel
+- **Category**: `cs.AI`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02221v1](http://arxiv.org/abs/2604.02221v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02221v1.pdf](https://arxiv.org/pdf/2604.02221v1.pdf)
+- **Abstract**: Multimodal Large Language Models (MLLMs) offer an opportunity to support multimedia learning through conversational systems grounded in educational content. However, while conversational AI is known to boost engagement, its impact on learning in visually-rich STEM domains remains under-explored. Moreover, there is limited understanding of how multimodality and conversationality jointly influence learning in generative AI systems. This work reports findings from a randomized controlled online stu...
+
+---
+
+### 11. VISTA: Visualization of Token Attribution via Efficient Analysis
+
+- **Authors**: Syed Ahmed, Bharathi Vokkaliga Ganesh, Jagadish Babu P, Karthick Selvaraj, Praneeth Talluri
+- **Category**: `cs.AI`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02217v1](http://arxiv.org/abs/2604.02217v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02217v1.pdf](https://arxiv.org/pdf/2604.02217v1.pdf)
+- **Abstract**: Understanding how Large Language Models (LLMs) process information from prompts remains a significant challenge. To shed light on this "black box," attention visualization techniques have been developed to capture neuron-level perceptions and interpret how models focus on different parts of input data. However, many existing techniques are tailored to specific model architectures, particularly within the Transformer family, and often require backpropagation, resulting in nearly double the GPU me...
+
+---
+
+### 12. Multi-Agent Video Recommenders: Evolution, Patterns, and Open Challenges
 
 - **Authors**: Srivaths Ranganathan, Abhishek Dharmaratnakar, Anushree Sinha, Debanshu Das
 - **Category**: `cs.AI`
@@ -23,7 +144,7 @@ Total papers found: **123**
 
 ---
 
-### 2. Blinded Radiologist and LLM-Based Evaluation of LLM-Generated Japanese Translations of Chest CT Reports: Comparative Study
+### 13. Blinded Radiologist and LLM-Based Evaluation of LLM-Generated Japanese Translations of Chest CT Reports: Comparative Study
 
 - **Authors**: Yosuke Yamagishi, Atsushi Takamatsu, Yasunori Hamaguchi, Tomohiro Kikuchi, Shouhei Hanaoka
 - **Category**: `cs.AI`
@@ -34,7 +155,7 @@ Total papers found: **123**
 
 ---
 
-### 3. Neuro-RIT: Neuron-Guided Instruction Tuning for Robust Retrieval-Augmented Language Model
+### 14. Neuro-RIT: Neuron-Guided Instruction Tuning for Robust Retrieval-Augmented Language Model
 
 - **Authors**: Jaemin Kim, Jae O Lee, Sumyeong Ahn, Seo Yeon Park
 - **Category**: `cs.AI`
@@ -45,7 +166,7 @@ Total papers found: **123**
 
 ---
 
-### 4. TRU: Targeted Reverse Update for Efficient Multimodal Recommendation Unlearning
+### 15. TRU: Targeted Reverse Update for Efficient Multimodal Recommendation Unlearning
 
 - **Authors**: Zhanting Zhou, KaHou Tam, Ziqiang Zheng, Zeyu Ma, Zhanting Zhou
 - **Category**: `cs.AI`
@@ -56,7 +177,7 @@ Total papers found: **123**
 
 ---
 
-### 5. The Expert Strikes Back: Interpreting Mixture-of-Experts Language Models at Expert Level
+### 16. The Expert Strikes Back: Interpreting Mixture-of-Experts Language Models at Expert Level
 
 - **Authors**: Jeremy Herbst, Jae Hee Lee, Stefan Wermter
 - **Category**: `cs.AI`
@@ -67,7 +188,7 @@ Total papers found: **123**
 
 ---
 
-### 6. Quantifying Self-Preservation Bias in Large Language Models
+### 17. Quantifying Self-Preservation Bias in Large Language Models
 
 - **Authors**: Matteo Migliarini, Joaquin Pereira Pizzini, Luca Moresca, Valerio Santini, Indro Spinelli
 - **Category**: `cs.AI`
@@ -78,7 +199,7 @@ Total papers found: **123**
 
 ---
 
-### 7. TRACE-Bot: Detecting Emerging LLM-Driven Social Bots via Implicit Semantic Representations and AIGC-Enhanced Behavioral Patterns
+### 18. TRACE-Bot: Detecting Emerging LLM-Driven Social Bots via Implicit Semantic Representations and AIGC-Enhanced Behavioral Patterns
 
 - **Authors**: Zhongbo Wang, Zhiyu Lin, Zhu Wang, Haizhou Wang
 - **Category**: `cs.AI`
@@ -89,7 +210,7 @@ Total papers found: **123**
 
 ---
 
-### 8. MTI: A Behavior-Based Temperament Profiling System for AI Agents
+### 19. MTI: A Behavior-Based Temperament Profiling System for AI Agents
 
 - **Authors**: Jihoon Jeong
 - **Category**: `cs.AI`
@@ -101,7 +222,7 @@ Total papers found: **123**
 
 ---
 
-### 9. LLM-as-a-Judge for Time Series Explanations
+### 20. LLM-as-a-Judge for Time Series Explanations
 
 - **Authors**: Preetham Sivalingam, Murari Mandal, Saurabh Deshpande, Dhruv Kumar
 - **Category**: `cs.AI`
@@ -112,132 +233,11 @@ Total papers found: **123**
 
 ---
 
-### 10. Optimizing RAG Rerankers with LLM Feedback via Reinforcement Learning
 
-- **Authors**: Yuhang Wu, Xiangqing Shen, Fanfan Wang, Cangqi Zhou, Zhen Wu
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02091v1](http://arxiv.org/abs/2604.02091v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02091v1.pdf](https://arxiv.org/pdf/2604.02091v1.pdf)
-- **Abstract**: Rerankers play a pivotal role in refining retrieval results for Retrieval-Augmented Generation. However, current reranking models are typically optimized on static human annotated relevance labels in isolation, decoupled from the downstream generation process. This isolation leads to a fundamental misalignment: documents identified as topically relevant by information retrieval metrics often fail to provide the actual utility required by the LLM for precise answer generation. To bridge this gap,...
-
----
-
-### 11. Mining Instance-Centric Vision-Language Contexts for Human-Object Interaction Detection
-
-- **Authors**: Soo Won Seo, KyungChae Lee, Hyungchan Cho, Taein Son, Nam Ik Cho
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02071v1](http://arxiv.org/abs/2604.02071v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02071v1.pdf](https://arxiv.org/pdf/2604.02071v1.pdf)
-- **Abstract**: Human-Object Interaction (HOI) detection aims to localize human-object pairs and classify their interactions from a single image, a task that demands strong visual understanding and nuanced contextual reasoning. Recent approaches have leveraged Vision-Language Models (VLMs) to introduce semantic priors, significantly improving HOI detection performance. However, existing methods often fail to fully capitalize on the diverse contextual cues distributed across the entire scene. To overcome these l...
-
----
-
-### 12. Goose: Anisotropic Speculation Trees for Training-Free Speculative Decoding
-
-- **Authors**: Tao Jin, Phuong Minh Nguyen, Naoya Inoue
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02047v1](http://arxiv.org/abs/2604.02047v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02047v1.pdf](https://arxiv.org/pdf/2604.02047v1.pdf)
-- **Abstract**: Speculative decoding accelerates large language model inference by drafting multiple candidate tokens and verifying them in a single forward pass. Candidates are organized as a tree: deeper trees accept more tokens per step, but adding depth requires sacrificing breadth (fallback options) under a fixed verification budget. Existing training-free methods draft from a single token source and shape their trees without distinguishing candidate quality across origins. We observe that two common train...
-
----
-
-### 13. BidirLM: From Text to Omnimodal Bidirectional Encoders by Adapting and Composing Causal LLMs
-
-- **Authors**: Nicolas Boizard, Théo Deschamps-Berger, Hippolyte Gisserot-Boukhlef, Céline Hudelot, Pierre Colombo
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02045v1](http://arxiv.org/abs/2604.02045v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02045v1.pdf](https://arxiv.org/pdf/2604.02045v1.pdf)
-- **Abstract**: Transforming causal generative language models into bidirectional encoders offers a powerful alternative to BERT-style architectures. However, current approaches remain limited: they lack consensus on optimal training objectives, suffer from catastrophic forgetting at scale, and fail to flexibly integrate the vast ecosystem of specialized generative models. In this work, through systematic ablations on the Gemma3 and Qwen3 families, we identify the key factors driving successful adaptation, high...
-
----
-
-### 14. AI in Insurance: Adaptive Questionnaires for Improved Risk Profiling
-
-- **Authors**: Diogo Silva, João Teixeira, Bruno Lima
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02034v1](http://arxiv.org/abs/2604.02034v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02034v1.pdf](https://arxiv.org/pdf/2604.02034v1.pdf)
-- **Abstract**: Insurance application processes often rely on lengthy and standardized questionnaires that struggle to capture individual differences. Moreover, insurers must blindly trust users' responses, increasing the chances of fraud. The ARQuest framework introduces a new approach to underwriting by using Large Language Models (LLMs) and alternative data sources to create personalized and adaptive questionnaires. Techniques such as social media image analysis, geographic data categorization, and Retrieval...
-
----
-
-### 15. ATBench: A Diverse and Realistic Trajectory Benchmark for Long-Horizon Agent Safety
-
-- **Authors**: Yu Li, Haoyu Luo, Yuejin Xie, Yuqian Fu, Zhonghao Yang
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02022v1](http://arxiv.org/abs/2604.02022v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02022v1.pdf](https://arxiv.org/pdf/2604.02022v1.pdf)
-- **Abstract**: Evaluating the safety of LLM-based agents is increasingly important because risks in realistic deployments often emerge over multi-step interactions rather than isolated prompts or final responses. Existing trajectory-level benchmarks remain limited by insufficient interaction diversity, coarse observability of safety failures, and weak long-horizon realism. We introduce ATBench, a trajectory-level benchmark for structured, diverse, and realistic evaluation of agent safety. ATBench organizes age...
-
----
-
-### 16. ProCeedRL: Process Critic with Exploratory Demonstration Reinforcement Learning for LLM Agentic Reasoning
-
-- **Authors**: Jingyue Gao, Yanjiang Guo, Xiaoshuai Chen, Jianyu Chen
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02006v1](http://arxiv.org/abs/2604.02006v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02006v1.pdf](https://arxiv.org/pdf/2604.02006v1.pdf)
-- **Abstract**: Reinforcement Learning (RL) significantly enhances the reasoning abilities of large language models (LLMs), yet applying it to multi-turn agentic tasks remains challenging due to the long-horizon nature of interactions and the stochasticity of environmental feedback. We identify a structural failure mode in agentic exploration: suboptimal actions elicit noisy observations into misleading contexts, which further weaken subsequent decision-making, making recovery increasingly difficult. This cumul...
-
----
-
-### 17. SAFE: Stepwise Atomic Feedback for Error correction in Multi-hop Reasoning
-
-- **Authors**: Daeyong Kwon, Soyoung Yoon, Seung-won Hwang
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.01993v1](http://arxiv.org/abs/2604.01993v1)
-- **PDF**: [https://arxiv.org/pdf/2604.01993v1.pdf](https://arxiv.org/pdf/2604.01993v1.pdf)
-- **Abstract**: Multi-hop QA benchmarks frequently reward Large Language Models (LLMs) for spurious correctness, masking ungrounded or flawed reasoning steps. To shift toward rigorous reasoning, we propose SAFE, a dynamic benchmarking framework that replaces the ungrounded Chain-of-Thought (CoT) with a strictly verifiable sequence of grounded entities. Our framework operates across two phases: (1) train-time verification, where we establish an atomic error taxonomy and a Knowledge Graph (KG)-grounded verificati...
-
----
-
-### 18. Attention at Rest Stays at Rest: Breaking Visual Inertia for Cognitive Hallucination Mitigation
-
-- **Authors**: Boyang Gong, Yu Zheng, Fanye Kong, Jie Zhou, Jiwen Lu
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.01989v1](http://arxiv.org/abs/2604.01989v1)
-- **PDF**: [https://arxiv.org/pdf/2604.01989v1.pdf](https://arxiv.org/pdf/2604.01989v1.pdf)
-- **Abstract**: Like a body at rest that stays at rest, we find that visual attention in multimodal large language models (MLLMs) exhibits pronounced inertia, remaining largely static once settled during early decoding steps and failing to support the compositional understanding required for cognitive inference. While existing hallucination mitigation methods mainly target perceptual hallucinations concerning object existence or attributes, they remain inadequate for such cognitive hallucinations that require i...
-
----
-
-### 19. SenseMath: Do LLMs Have Number Sense? Evaluating Shortcut Use, Judgment, and Generation
-
-- **Authors**: Haomin Zhuang, Xiangqi Wang, Yili Shen, Ying Cheng, Xiangliang Zhang
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.01988v1](http://arxiv.org/abs/2604.01988v1)
-- **PDF**: [https://arxiv.org/pdf/2604.01988v1.pdf](https://arxiv.org/pdf/2604.01988v1.pdf)
-- **Abstract**: Large language models often default to step-by-step computation even when efficient numerical shortcuts are available. This raises a basic question: do they exhibit number sense in a human-like behavioral sense, i.e., the ability to recognize numerical structure, apply shortcuts when appropriate, and avoid them when they are not? We introduce SenseMath, a controlled benchmark for evaluating structure-sensitive numerical reasoning in LLMs. SenseMath contains 4,800 items spanning eight shortcut ca...
-
----
-
-### 20. RuleForge: Automated Generation and Validation for Web Vulnerability Detection at Scale
-
-- **Authors**: Ayush Garg, Sophia Hager, Jacob Montiel, Aditya Tiwari, Michael Gentile
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.01977v1](http://arxiv.org/abs/2604.01977v1)
-- **PDF**: [https://arxiv.org/pdf/2604.01977v1.pdf](https://arxiv.org/pdf/2604.01977v1.pdf)
-- **Abstract**: Security teams face a challenge: the volume of newly disclosed Common Vulnerabilities and Exposures (CVEs) far exceeds the capacity to manually develop detection mechanisms. In 2025, the National Vulnerability Database published over 48,000 new vulnerabilities, motivating the need for automation. We present RuleForge, an AWS internal system that automatically generates detection rules--JSON-based patterns that identify malicious HTTP requests exploiting specific vulnerabilities--from structured ...
-
----
+*... and 85 more papers in this direction*
 
 
-*... and 87 more papers in this direction*
-
-
-## 📱 Edge Deployment (6)
+## 📱 Edge Deployment (5)
 
 ### 1. Diff-KD: Diffusion-based Knowledge Distillation for Collaborative Perception under Corruptions
 
@@ -264,7 +264,7 @@ Total papers found: **123**
 ### 3. DDCL-INCRT: A Self-Organising Transformer with Hierarchical Prototype Structure (Theoretical Foundations)
 
 - **Authors**: Giansalvo Cirrincione
-- **Category**: `cs.LG`
+- **Category**: `cs.NE`
 - **Published**: 2026-04-02
 - **arXiv**: [http://arxiv.org/abs/2604.01880v1](http://arxiv.org/abs/2604.01880v1)
 - **PDF**: [https://arxiv.org/pdf/2604.01880v1.pdf](https://arxiv.org/pdf/2604.01880v1.pdf)
@@ -276,18 +276,6 @@ Total papers found: **123**
 ### 4. DDCL-INCRT: A Self-Organising Transformer with Hierarchical Prototype Structure (Theoretical Foundations)
 
 - **Authors**: Giansalvo Cirrincione
-- **Category**: `cs.NE`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.01880v1](http://arxiv.org/abs/2604.01880v1)
-- **PDF**: [https://arxiv.org/pdf/2604.01880v1.pdf](https://arxiv.org/pdf/2604.01880v1.pdf)
-- **Abstract**: Modern neural networks of the transformer family require the practitioner to decide, before training begins, how many attention heads to use, how deep the network should be, and how wide each component should be. These decisions are made without knowledge of the task, producing architectures that are systematically larger than necessary: empirical studies find that a substantial fraction of heads and layers can be removed after training without performance loss.
-  This paper introduces DDCL-INCR...
-
----
-
-### 5. DDCL-INCRT: A Self-Organising Transformer with Hierarchical Prototype Structure (Theoretical Foundations)
-
-- **Authors**: Giansalvo Cirrincione
 - **Category**: `stat.ML`
 - **Published**: 2026-04-02
 - **arXiv**: [http://arxiv.org/abs/2604.01880v1](http://arxiv.org/abs/2604.01880v1)
@@ -297,7 +285,7 @@ Total papers found: **123**
 
 ---
 
-### 6. Bridging Discrete Planning and Continuous Execution for Redundant Robot
+### 5. Bridging Discrete Planning and Continuous Execution for Redundant Robot
 
 - **Authors**: Teng Yan, Yue Yu, Yihan Liu, Bingzhuo Zhong
 - **Category**: `cs.RO`
@@ -309,20 +297,9 @@ Total papers found: **123**
 ---
 
 
-## 🚁 UAV Vision (10)
+## 🚁 UAV Vision (8)
 
-### 1. Lifting Unlabeled Internet-level Data for 3D Scene Understanding
-
-- **Authors**: Yixin Chen, Yaowei Zhang, Huangyue Yu, Junchao He, Yan Wang
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.01907v1](http://arxiv.org/abs/2604.01907v1)
-- **PDF**: [https://arxiv.org/pdf/2604.01907v1.pdf](https://arxiv.org/pdf/2604.01907v1.pdf)
-- **Abstract**: Annotated 3D scene data is scarce and expensive to acquire, while abundant unlabeled videos are readily available on the internet. In this paper, we demonstrate that carefully designed data engines can leverage web-curated, unlabeled videos to automatically generate training data, to facilitate end-to-end models in 3D scene understanding alongside human-annotated datasets. We identify and analyze bottlenecks in automated data generation, revealing critical factors that determine the efficiency a...
-
----
-
-### 2. CoRegOVCD: Consistency-Regularized Open-Vocabulary Change Detection
+### 1. CoRegOVCD: Consistency-Regularized Open-Vocabulary Change Detection
 
 - **Authors**: Weidong Tang, Hanbin Sun, Zihan Li, Yikai Wang, Feifan Zhang
 - **Category**: `cs.CV`
@@ -333,7 +310,7 @@ Total papers found: **123**
 
 ---
 
-### 3. IndoorCrowd: A Multi-Scene Dataset for Human Detection, Segmentation, and Tracking with an Automated Annotation Pipeline
+### 2. IndoorCrowd: A Multi-Scene Dataset for Human Detection, Segmentation, and Tracking with an Automated Annotation Pipeline
 
 - **Authors**: Sebastian-Ion Nae, Radu Moldoveanu, Alexandra Stefania Ghita, Adina Magda Florea
 - **Category**: `cs.CV`
@@ -344,7 +321,7 @@ Total papers found: **123**
 
 ---
 
-### 4. Decouple and Rectify: Semantics-Preserving Structural Enhancement for Open-Vocabulary Remote Sensing Segmentation
+### 3. Decouple and Rectify: Semantics-Preserving Structural Enhancement for Open-Vocabulary Remote Sensing Segmentation
 
 - **Authors**: Jie Feng, Fengze Li, Junpeng Zhang, Siyu Chen, Yuping Liang
 - **Category**: `cs.CV`
@@ -355,7 +332,7 @@ Total papers found: **123**
 
 ---
 
-### 5. ProDiG: Progressive Diffusion-Guided Gaussian Splatting for Aerial to Ground Reconstruction
+### 4. ProDiG: Progressive Diffusion-Guided Gaussian Splatting for Aerial to Ground Reconstruction
 
 - **Authors**: Sirshapan Mitra, Yogesh S. Rawat
 - **Category**: `cs.CV`
@@ -366,7 +343,7 @@ Total papers found: **123**
 
 ---
 
-### 6. IndoorCrowd: A Multi-Scene Dataset for Human Detection, Segmentation, and Tracking with an Automated Annotation Pipeline
+### 5. IndoorCrowd: A Multi-Scene Dataset for Human Detection, Segmentation, and Tracking with an Automated Annotation Pipeline
 
 - **Authors**: Sebastian-Ion Nae, Radu Moldoveanu, Alexandra Stefania Ghita, Adina Magda Florea
 - **Category**: `cs.LG`
@@ -377,7 +354,7 @@ Total papers found: **123**
 
 ---
 
-### 7. PRO-SPECT: Probabilistically Safe Scalable Planning for Energy-Aware Coordinated UAV-UGV Teams in Stochastic Environments
+### 6. PRO-SPECT: Probabilistically Safe Scalable Planning for Energy-Aware Coordinated UAV-UGV Teams in Stochastic Environments
 
 - **Authors**: Roger Fowler, Cahit Ikbal Er, Benjamin Johnsenberg, Yasin Yazicioglu
 - **Category**: `cs.RO`
@@ -388,7 +365,7 @@ Total papers found: **123**
 
 ---
 
-### 8. ROS 2-Based LiDAR Perception Framework for Mobile Robots in Dynamic Production Environments, Utilizing Synthetic Data Generation, Transformation-Equivariant 3D Detection and Multi-Object Tracking
+### 7. ROS 2-Based LiDAR Perception Framework for Mobile Robots in Dynamic Production Environments, Utilizing Synthetic Data Generation, Transformation-Equivariant 3D Detection and Multi-Object Tracking
 
 - **Authors**: Lukas Bergs, Tan Chung, Marmik Thakkar, Alexander Moriz, Amon Göppert
 - **Category**: `cs.RO`
@@ -399,7 +376,7 @@ Total papers found: **123**
 
 ---
 
-### 9. Global Geometry of Orthogonal Foliations in the Control Allocation of Signed-Quadratic Systems
+### 8. Global Geometry of Orthogonal Foliations in the Control Allocation of Signed-Quadratic Systems
 
 - **Authors**: Antonio Franchi
 - **Category**: `cs.RO`
@@ -407,17 +384,6 @@ Total papers found: **123**
 - **arXiv**: [http://arxiv.org/abs/2604.01912v1](http://arxiv.org/abs/2604.01912v1)
 - **PDF**: [https://arxiv.org/pdf/2604.01912v1.pdf](https://arxiv.org/pdf/2604.01912v1.pdf)
 - **Abstract**: This work formalizes the differential topology of redundancy resolution for systems governed by signed-quadratic actuation maps. By analyzing the minimally redundant case, the global topology of the continuous fiber bundle defining the nonlinear actuation null-space is established. The distribution orthogonal to these fibers is proven to be globally integrable and governed by an exact logarithmic potential field. This field foliates the actuator space, inducing a structural stratification of all...
-
----
-
-### 10. A Graph Neural Network Approach for Solving the Ranked Assignment Problem in Multi-Object Tracking
-
-- **Authors**: Robin Dehler, Martin Herrmann, Jan Strohbeck, Michael Buchholz
-- **Category**: `cs.RO`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.01696v1](http://arxiv.org/abs/2604.01696v1)
-- **PDF**: [https://arxiv.org/pdf/2604.01696v1.pdf](https://arxiv.org/pdf/2604.01696v1.pdf)
-- **Abstract**: Associating measurements with tracks is a crucial step in Multi-Object Tracking (MOT) to guarantee the safety of autonomous vehicles. To manage the exponentially growing number of track hypotheses, truncation becomes necessary. In the $δ$-Generalized Labeled Multi-Bernoulli ($δ$-GLMB) filter application, this truncation typically involves the ranked assignment problem, solved by Murty's algorithm or the Gibbs sampling approach, both with limitations in terms of complexity or accuracy, respective...
 
 ---
 
