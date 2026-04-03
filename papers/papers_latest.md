@@ -6,11 +6,11 @@ Last updated: 2026-04-03
 
 ## 📊 Summary
 
-Total papers found: **82**
+Total papers found: **67**
 
 ---
 
-## 🎯 LLM Quantization (75)
+## 🎯 LLM Quantization (63)
 
 ### 1. Steerable Visual Representations
 
@@ -234,23 +234,12 @@ Total papers found: **82**
 ---
 
 
-*... and 55 more papers in this direction*
+*... and 43 more papers in this direction*
 
 
-## 📱 Edge Deployment (2)
+## 📱 Edge Deployment (1)
 
-### 1. Diff-KD: Diffusion-based Knowledge Distillation for Collaborative Perception under Corruptions
-
-- **Authors**: Pengcheng Lyu, Chaokun Zhang, Gong Chen, Tao Tang, Zhaoxiang Luo
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02061v1](http://arxiv.org/abs/2604.02061v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02061v1.pdf](https://arxiv.org/pdf/2604.02061v1.pdf)
-- **Abstract**: Multi-agent collaborative perception enables autonomous systems to overcome individual sensing limits through collective intelligence. However, real-world sensor and communication corruptions severely undermine this advantage. Crucially, existing approaches treat corruptions as static perturbations or passively conform to corrupted inputs, failing to actively recover the underlying clean semantics. To address this limitation, we introduce Diff-KD, a framework that integrates diffusion-based gene...
-
----
-
-### 2. EventHub: Data Factory for Generalizable Event-Based Stereo Networks without Active Sensors
+### 1. EventHub: Data Factory for Generalizable Event-Based Stereo Networks without Active Sensors
 
 - **Authors**: Luca Bartolomei, Fabio Tosi, Matteo Poggi, Stefano Mattoccia, Guillermo Gallego
 - **Category**: `cs.CV`
@@ -262,7 +251,7 @@ Total papers found: **82**
 ---
 
 
-## 🚁 UAV Vision (5)
+## 🚁 UAV Vision (3)
 
 ### 1. CoRegOVCD: Consistency-Regularized Open-Vocabulary Change Detection
 
@@ -275,29 +264,7 @@ Total papers found: **82**
 
 ---
 
-### 2. IndoorCrowd: A Multi-Scene Dataset for Human Detection, Segmentation, and Tracking with an Automated Annotation Pipeline
-
-- **Authors**: Sebastian-Ion Nae, Radu Moldoveanu, Alexandra Stefania Ghita, Adina Magda Florea
-- **Category**: `cs.CV`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02032v1](http://arxiv.org/abs/2604.02032v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02032v1.pdf](https://arxiv.org/pdf/2604.02032v1.pdf)
-- **Abstract**: Understanding human behaviour in crowded indoor environments is central to surveillance, smart buildings, and human-robot interaction, yet existing datasets rarely capture real-world indoor complexity at scale. We introduce IndoorCrowd, a multi-scene dataset for indoor human detection, instance segmentation, and multi-object tracking, collected across four campus locations (ACS-EC, ACS-EG, IE-Central, R-Central). It comprises $31$ videos ($9{,}913$ frames at $5$fps) with human-verified, per-inst...
-
----
-
-### 3. IndoorCrowd: A Multi-Scene Dataset for Human Detection, Segmentation, and Tracking with an Automated Annotation Pipeline
-
-- **Authors**: Sebastian-Ion Nae, Radu Moldoveanu, Alexandra Stefania Ghita, Adina Magda Florea
-- **Category**: `cs.LG`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02032v1](http://arxiv.org/abs/2604.02032v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02032v1.pdf](https://arxiv.org/pdf/2604.02032v1.pdf)
-- **Abstract**: Understanding human behaviour in crowded indoor environments is central to surveillance, smart buildings, and human-robot interaction, yet existing datasets rarely capture real-world indoor complexity at scale. We introduce IndoorCrowd, a multi-scene dataset for indoor human detection, instance segmentation, and multi-object tracking, collected across four campus locations (ACS-EC, ACS-EG, IE-Central, R-Central). It comprises $31$ videos ($9{,}913$ frames at $5$fps) with human-verified, per-inst...
-
----
-
-### 4. PRO-SPECT: Probabilistically Safe Scalable Planning for Energy-Aware Coordinated UAV-UGV Teams in Stochastic Environments
+### 2. PRO-SPECT: Probabilistically Safe Scalable Planning for Energy-Aware Coordinated UAV-UGV Teams in Stochastic Environments
 
 - **Authors**: Roger Fowler, Cahit Ikbal Er, Benjamin Johnsenberg, Yasin Yazicioglu
 - **Category**: `cs.RO`
@@ -308,7 +275,7 @@ Total papers found: **82**
 
 ---
 
-### 5. ROS 2-Based LiDAR Perception Framework for Mobile Robots in Dynamic Production Environments, Utilizing Synthetic Data Generation, Transformation-Equivariant 3D Detection and Multi-Object Tracking
+### 3. ROS 2-Based LiDAR Perception Framework for Mobile Robots in Dynamic Production Environments, Utilizing Synthetic Data Generation, Transformation-Equivariant 3D Detection and Multi-Object Tracking
 
 - **Authors**: Lukas Bergs, Tan Chung, Marmik Thakkar, Alexander Moriz, Amon Göppert
 - **Category**: `cs.RO`
