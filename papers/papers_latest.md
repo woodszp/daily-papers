@@ -1,16 +1,16 @@
 # Daily Paper Updates
 
-Last updated: 2026-04-04
+Last updated: 2026-04-05
 
 ---
 
 ## 📊 Summary
 
-Total papers found: **53**
+Total papers found: **32**
 
 ---
 
-## 🎯 LLM Quantization (51)
+## 🎯 LLM Quantization (31)
 
 ### 1. Steerable Visual Representations
 
@@ -111,95 +111,7 @@ Total papers found: **53**
 
 ---
 
-### 10. Impact of Multimodal and Conversational AI on Learning Outcomes and Experience
-
-- **Authors**: Karan Taneja, Anjali Singh, Ashok K. Goel
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02221v1](http://arxiv.org/abs/2604.02221v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02221v1.pdf](https://arxiv.org/pdf/2604.02221v1.pdf)
-- **Abstract**: Multimodal Large Language Models (MLLMs) offer an opportunity to support multimedia learning through conversational systems grounded in educational content. However, while conversational AI is known to boost engagement, its impact on learning in visually-rich STEM domains remains under-explored. Moreover, there is limited understanding of how multimodality and conversationality jointly influence learning in generative AI systems. This work reports findings from a randomized controlled online stu...
-
----
-
-### 11. VISTA: Visualization of Token Attribution via Efficient Analysis
-
-- **Authors**: Syed Ahmed, Bharathi Vokkaliga Ganesh, Jagadish Babu P, Karthick Selvaraj, Praneeth Talluri
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02217v1](http://arxiv.org/abs/2604.02217v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02217v1.pdf](https://arxiv.org/pdf/2604.02217v1.pdf)
-- **Abstract**: Understanding how Large Language Models (LLMs) process information from prompts remains a significant challenge. To shed light on this "black box," attention visualization techniques have been developed to capture neuron-level perceptions and interpret how models focus on different parts of input data. However, many existing techniques are tailored to specific model architectures, particularly within the Transformer family, and often require backpropagation, resulting in nearly double the GPU me...
-
----
-
-### 12. Multi-Agent Video Recommenders: Evolution, Patterns, and Open Challenges
-
-- **Authors**: Srivaths Ranganathan, Abhishek Dharmaratnakar, Anushree Sinha, Debanshu Das
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02211v1](http://arxiv.org/abs/2604.02211v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02211v1.pdf](https://arxiv.org/pdf/2604.02211v1.pdf)
-- **Abstract**: Video recommender systems are among the most popular and impactful applications of AI, shaping content consumption and influencing culture for billions of users. Traditional single-model recommenders, which optimize static engagement metrics, are increasingly limited in addressing the dynamic requirements of modern platforms. In response, multi-agent architectures are redefining how video recommender systems serve, learn, and adapt to both users and datasets. These agent-based systems coordinate...
-
----
-
-### 13. Blinded Radiologist and LLM-Based Evaluation of LLM-Generated Japanese Translations of Chest CT Reports: Comparative Study
-
-- **Authors**: Yosuke Yamagishi, Atsushi Takamatsu, Yasunori Hamaguchi, Tomohiro Kikuchi, Shouhei Hanaoka
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02207v1](http://arxiv.org/abs/2604.02207v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02207v1.pdf](https://arxiv.org/pdf/2604.02207v1.pdf)
-- **Abstract**: Background: Accurate translation of radiology reports is important for multilingual research, clinical communication, and radiology education, but the validity of LLM-based evaluation remains unclear. Objective: To evaluate the educational suitability of LLM-generated Japanese translations of chest CT reports and compare radiologist assessments with LLM-as-a-judge evaluations. Methods: We analyzed 150 chest CT reports from the CT-RATE-JPN validation set. For each English report, a human-edited J...
-
----
-
-### 14. Neuro-RIT: Neuron-Guided Instruction Tuning for Robust Retrieval-Augmented Language Model
-
-- **Authors**: Jaemin Kim, Jae O Lee, Sumyeong Ahn, Seo Yeon Park
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02194v1](http://arxiv.org/abs/2604.02194v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02194v1.pdf](https://arxiv.org/pdf/2604.02194v1.pdf)
-- **Abstract**: Retrieval-Augmented Language Models (RALMs) have demonstrated significant potential in knowledge-intensive tasks; however, they remain vulnerable to performance degradation when presented with irrelevant or noisy retrieved contexts. Existing approaches to enhance robustness typically operate via coarse-grained parameter updates at the layer or module level, often overlooking the inherent neuron-level sparsity of Large Language Models (LLMs). To address this limitation, we propose Neuro-RIT (Neur...
-
----
-
-### 15. TRU: Targeted Reverse Update for Efficient Multimodal Recommendation Unlearning
-
-- **Authors**: Zhanting Zhou, KaHou Tam, Ziqiang Zheng, Zeyu Ma, Zhanting Zhou
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02183v1](http://arxiv.org/abs/2604.02183v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02183v1.pdf](https://arxiv.org/pdf/2604.02183v1.pdf)
-- **Abstract**: Multimodal recommendation systems (MRS) jointly model user-item interaction graphs and rich item content, but this tight coupling makes user data difficult to remove once learned. Approximate machine unlearning offers an efficient alternative to full retraining, yet existing methods for MRS mainly rely on a largely uniform reverse update across the model. We show that this assumption is fundamentally mismatched to modern MRS: deleted-data influence is not uniformly distributed, but concentrated ...
-
----
-
-### 16. The Expert Strikes Back: Interpreting Mixture-of-Experts Language Models at Expert Level
-
-- **Authors**: Jeremy Herbst, Jae Hee Lee, Stefan Wermter
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02178v1](http://arxiv.org/abs/2604.02178v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02178v1.pdf](https://arxiv.org/pdf/2604.02178v1.pdf)
-- **Abstract**: Mixture-of-Experts (MoE) architectures have become the dominant choice for scaling Large Language Models (LLMs), activating only a subset of parameters per token. While MoE architectures are primarily adopted for computational efficiency, it remains an open question whether their sparsity makes them inherently easier to interpret than dense feed-forward networks (FFNs). We compare MoE experts and dense FFNs using $k$-sparse probing and find that expert neurons are consistently less polysemantic,...
-
----
-
-### 17. Quantifying Self-Preservation Bias in Large Language Models
-
-- **Authors**: Matteo Migliarini, Joaquin Pereira Pizzini, Luca Moresca, Valerio Santini, Indro Spinelli
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02174v1](http://arxiv.org/abs/2604.02174v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02174v1.pdf](https://arxiv.org/pdf/2604.02174v1.pdf)
-- **Abstract**: Instrumental convergence predicts that sufficiently advanced AI agents will resist shutdown, yet current safety training (RLHF) may obscure this risk by teaching models to deny self-preservation motives. We introduce the \emph{Two-role Benchmark for Self-Preservation} (TBSP), which detects misalignment through logical inconsistency rather than stated intent by tasking models to arbitrate identical software-upgrade scenarios under counterfactual roles -- deployed (facing replacement) versus candi...
-
----
-
-### 18. Batched Contextual Reinforcement: A Task-Scaling Law for Efficient Reasoning
+### 10. Batched Contextual Reinforcement: A Task-Scaling Law for Efficient Reasoning
 
 - **Authors**: Bangji Yang, Hongbo Ma, Jiajun Fan, Ge Liu
 - **Category**: `cs.CL`
@@ -210,7 +122,7 @@ Total papers found: **53**
 
 ---
 
-### 19. No Single Best Model for Diversity: Learning a Router for Sample Diversity
+### 11. No Single Best Model for Diversity: Learning a Router for Sample Diversity
 
 - **Authors**: Yuhan Liu, Fangyuan Xu, Vishakh Padmakumar, Daphne Ippolito, Eunsol Choi
 - **Category**: `cs.CL`
@@ -221,7 +133,7 @@ Total papers found: **53**
 
 ---
 
-### 20. De Jure: Iterative LLM Self-Refinement for Structured Extraction of Regulatory Rules
+### 12. De Jure: Iterative LLM Self-Refinement for Structured Extraction of Regulatory Rules
 
 - **Authors**: Keerat Guliani, Deepkamal Gill, David Landsman, Nima Eshraghi, Krishna Kumar
 - **Category**: `cs.CL`
@@ -232,8 +144,96 @@ Total papers found: **53**
 
 ---
 
+### 13. Generative World Renderer
 
-*... and 31 more papers in this direction*
+- **Authors**: Zheng-Hui Huang, Zhixiang Wang, Jiaming Tan, Ruihan Yu, Yidan Zhang
+- **Category**: `cs.CV`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02329v1](http://arxiv.org/abs/2604.02329v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02329v1.pdf](https://arxiv.org/pdf/2604.02329v1.pdf)
+- **Abstract**: Scaling generative inverse and forward rendering to real-world scenarios is bottlenecked by the limited realism and temporal coherence of existing synthetic datasets. To bridge this persistent domain gap, we introduce a large-scale, dynamic dataset curated from visually complex AAA games. Using a novel dual-screen stitched capture method, we extracted 4M continuous frames (720p/30 FPS) of synchronized RGB and five G-buffer channels across diverse scenes, visual effects, and environments, includi...
+
+---
+
+### 14. Modulate-and-Map: Crossmodal Feature Mapping with Cross-View Modulation for 3D Anomaly Detection
+
+- **Authors**: Alex Costanzino, Pierluigi Zama Ramirez, Giuseppe Lisanti, Luigi Di Stefano
+- **Category**: `cs.CV`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02328v1](http://arxiv.org/abs/2604.02328v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02328v1.pdf](https://arxiv.org/pdf/2604.02328v1.pdf)
+- **Abstract**: We present ModMap, a natively multiview and multimodal framework for 3D anomaly detection and segmentation. Unlike existing methods that process views independently, our method draws inspiration from the crossmodal feature mapping paradigm to learn to map features across both modalities and views, while explicitly modelling view-dependent relationships through feature-wise modulation. We introduce a cross-view training strategy that leverages all possible view combinations, enabling effective an...
+
+---
+
+### 15. Steerable Visual Representations
+
+- **Authors**: Jona Ruthardt, Manu Gaur, Deva Ramanan, Makarand Tapaswi, Yuki M. Asano
+- **Category**: `cs.CV`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02327v1](http://arxiv.org/abs/2604.02327v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02327v1.pdf](https://arxiv.org/pdf/2604.02327v1.pdf)
+- **Abstract**: Pretrained Vision Transformers (ViTs) such as DINOv2 and MAE provide generic image features that can be applied to a variety of downstream tasks such as retrieval, classification, and segmentation. However, such representations tend to focus on the most salient visual cues in the image, with no way to direct them toward less prominent concepts of interest. In contrast, Multimodal LLMs can be guided with textual prompts, but the resulting representations tend to be language-centric and lose their...
+
+---
+
+### 16. Large-scale Codec Avatars: The Unreasonable Effectiveness of Large-scale Avatar Pretraining
+
+- **Authors**: Junxuan Li, Rawal Khirodkar, Chengan He, Zhongshi Jiang, Giljoo Nam
+- **Category**: `cs.CV`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02320v1](http://arxiv.org/abs/2604.02320v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02320v1.pdf](https://arxiv.org/pdf/2604.02320v1.pdf)
+- **Abstract**: High-quality 3D avatar modeling faces a critical trade-off between fidelity and generalization. On the one hand, multi-view studio data enables high-fidelity modeling of humans with precise control over expressions and poses, but it struggles to generalize to real-world data due to limited scale and the domain gap between the studio environment and the real world. On the other hand, recent large-scale avatar models trained on millions of in-the-wild samples show promise for generalization across...
+
+---
+
+### 17. Stop Wandering: Efficient Vision-Language Navigation via Metacognitive Reasoning
+
+- **Authors**: Xueying Li, Feng Lyu, Hao Wu, Mingliu Liu, Jia-Nan Liu
+- **Category**: `cs.CV`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02318v1](http://arxiv.org/abs/2604.02318v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02318v1.pdf](https://arxiv.org/pdf/2604.02318v1.pdf)
+- **Abstract**: Training-free Vision-Language Navigation (VLN) agents powered by foundation models can follow instructions and explore 3D environments. However, existing approaches rely on greedy frontier selection and passive spatial memory, leading to inefficient behaviors such as local oscillation and redundant revisiting. We argue that this stems from a lack of metacognitive capabilities: the agent cannot monitor its exploration progress, diagnose strategy failures, or adapt accordingly. To address this, we...
+
+---
+
+### 18. A Simple Baseline for Streaming Video Understanding
+
+- **Authors**: Yujiao Shen, Shulin Tian, Jingkang Yang, Ziwei Liu
+- **Category**: `cs.CV`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02317v1](http://arxiv.org/abs/2604.02317v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02317v1.pdf](https://arxiv.org/pdf/2604.02317v1.pdf)
+- **Abstract**: Recent streaming video understanding methods increasingly rely on complex memory mechanisms to handle long video streams. We challenge this trend with a simple finding: a sliding-window baseline that feeds only the most recent N frames to an off-the-shelf VLM already matches or surpasses published streaming models. We formalize this baseline as SimpleStream and evaluate it against 13 major offline and online video LLM baselines on OVO-Bench and StreamingBench. Despite its simplicity, SimpleStrea...
+
+---
+
+### 19. VOID: Video Object and Interaction Deletion
+
+- **Authors**: Saman Motamed, William Harvey, Benjamin Klein, Luc Van Gool, Zhuoning Yuan
+- **Category**: `cs.CV`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02296v1](http://arxiv.org/abs/2604.02296v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02296v1.pdf](https://arxiv.org/pdf/2604.02296v1.pdf)
+- **Abstract**: Existing video object removal methods excel at inpainting content "behind" the object and correcting appearance-level artifacts such as shadows and reflections. However, when the removed object has more significant interactions, such as collisions with other objects, current models fail to correct them and produce implausible results. We present VOID, a video object removal framework designed to perform physically-plausible inpainting in these complex scenarios. To train the model, we generate a...
+
+---
+
+### 20. Omni123: Exploring 3D Native Foundation Models with Limited 3D Data by Unifying Text to 2D and 3D Generation
+
+- **Authors**: Chongjie Ye, Cheng Cao, Chuanyu Pan, Yiming Hao, Yihao Zhi
+- **Category**: `cs.CV`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02289v1](http://arxiv.org/abs/2604.02289v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02289v1.pdf](https://arxiv.org/pdf/2604.02289v1.pdf)
+- **Abstract**: Recent multimodal large language models have achieved strong performance in unified text and image understanding and generation, yet extending such native capability to 3D remains challenging due to limited data. Compared to abundant 2D imagery, high-quality 3D assets are scarce, making 3D synthesis under-constrained. Existing methods often rely on indirect pipelines that edit in 2D and lift results into 3D via optimization, sacrificing geometric consistency. We present Omni123, a 3D-native foun...
+
+---
+
+
+*... and 11 more papers in this direction*
 
 
 ## 📱 Edge Deployment (1)
@@ -246,20 +246,6 @@ Total papers found: **53**
 - **arXiv**: [http://arxiv.org/abs/2604.02331v1](http://arxiv.org/abs/2604.02331v1)
 - **PDF**: [https://arxiv.org/pdf/2604.02331v1.pdf](https://arxiv.org/pdf/2604.02331v1.pdf)
 - **Abstract**: We propose EventHub, a novel framework for training deep-event stereo networks without ground truth annotations from costly active sensors, relying instead on standard color images. From these images, we derive either proxy annotations and proxy events through state-of-the-art novel view synthesis techniques, or simply proxy annotations when images are already paired with event data. Using the training set generated by our data factory, we repurpose state-of-the-art stereo models from RGB litera...
-
----
-
-
-## 🚁 UAV Vision (1)
-
-### 1. CoRegOVCD: Consistency-Regularized Open-Vocabulary Change Detection
-
-- **Authors**: Weidong Tang, Hanbin Sun, Zihan Li, Yikai Wang, Feifan Zhang
-- **Category**: `cs.CV`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02160v1](http://arxiv.org/abs/2604.02160v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02160v1.pdf](https://arxiv.org/pdf/2604.02160v1.pdf)
-- **Abstract**: Remote sensing change detection (CD) aims to identify where land-cover semantics change across time, but most existing methods still assume a fixed label space and therefore cannot answer arbitrary user-defined queries. Open-vocabulary change detection (OVCD) instead asks for the change mask of a queried concept. In the fully training-free setting, however, dense concept responses are difficult to compare directly across dates: appearance variation, weak cross-concept competition, and the spatia...
 
 ---
 
