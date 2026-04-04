@@ -6,11 +6,11 @@ Last updated: 2026-04-04
 
 ## 📊 Summary
 
-Total papers found: **122**
+Total papers found: **118**
 
 ---
 
-## 🎯 LLM Quantization (108)
+## 🎯 LLM Quantization (105)
 
 ### 1. Steerable Visual Representations
 
@@ -234,7 +234,7 @@ Total papers found: **122**
 ---
 
 
-*... and 88 more papers in this direction*
+*... and 85 more papers in this direction*
 
 
 ## 📱 Edge Deployment (5)
@@ -297,7 +297,7 @@ Total papers found: **122**
 ---
 
 
-## 🚁 UAV Vision (9)
+## 🚁 UAV Vision (8)
 
 ### 1. CoRegOVCD: Consistency-Regularized Open-Vocabulary Change Detection
 
@@ -384,17 +384,6 @@ Total papers found: **122**
 - **arXiv**: [http://arxiv.org/abs/2604.01912v1](http://arxiv.org/abs/2604.01912v1)
 - **PDF**: [https://arxiv.org/pdf/2604.01912v1.pdf](https://arxiv.org/pdf/2604.01912v1.pdf)
 - **Abstract**: This work formalizes the differential topology of redundancy resolution for systems governed by signed-quadratic actuation maps. By analyzing the minimally redundant case, the global topology of the continuous fiber bundle defining the nonlinear actuation null-space is established. The distribution orthogonal to these fibers is proven to be globally integrable and governed by an exact logarithmic potential field. This field foliates the actuator space, inducing a structural stratification of all...
-
----
-
-### 9. A Graph Neural Network Approach for Solving the Ranked Assignment Problem in Multi-Object Tracking
-
-- **Authors**: Robin Dehler, Martin Herrmann, Jan Strohbeck, Michael Buchholz
-- **Category**: `cs.RO`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.01696v1](http://arxiv.org/abs/2604.01696v1)
-- **PDF**: [https://arxiv.org/pdf/2604.01696v1.pdf](https://arxiv.org/pdf/2604.01696v1.pdf)
-- **Abstract**: Associating measurements with tracks is a crucial step in Multi-Object Tracking (MOT) to guarantee the safety of autonomous vehicles. To manage the exponentially growing number of track hypotheses, truncation becomes necessary. In the $δ$-Generalized Labeled Multi-Bernoulli ($δ$-GLMB) filter application, this truncation typically involves the ranked assignment problem, solved by Murty's algorithm or the Gibbs sampling approach, both with limitations in terms of complexity or accuracy, respective...
 
 ---
 
