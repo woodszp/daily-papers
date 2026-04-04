@@ -6,11 +6,11 @@ Last updated: 2026-04-04
 
 ## 📊 Summary
 
-Total papers found: **108**
+Total papers found: **104**
 
 ---
 
-## 🎯 LLM Quantization (97)
+## 🎯 LLM Quantization (94)
 
 ### 1. Steerable Visual Representations
 
@@ -234,7 +234,7 @@ Total papers found: **108**
 ---
 
 
-*... and 77 more papers in this direction*
+*... and 74 more papers in this direction*
 
 
 ## 📱 Edge Deployment (3)
@@ -273,7 +273,7 @@ Total papers found: **108**
 ---
 
 
-## 🚁 UAV Vision (8)
+## 🚁 UAV Vision (7)
 
 ### 1. CoRegOVCD: Consistency-Regularized Open-Vocabulary Change Detection
 
@@ -349,17 +349,6 @@ Total papers found: **108**
 - **arXiv**: [http://arxiv.org/abs/2604.02109v1](http://arxiv.org/abs/2604.02109v1)
 - **PDF**: [https://arxiv.org/pdf/2604.02109v1.pdf](https://arxiv.org/pdf/2604.02109v1.pdf)
 - **Abstract**: Adaptive robots in dynamic production environments require robust perception capabilities, including 6D pose estimation and multi-object tracking. To address limitations in real-world data dependency, noise robustness, and spatiotemporal consistency, a LiDAR framework based on the Robot Operating System integrating a synthetic-data-trained Transformation-Equivariant 3D Detection with multi-object-tracking leveraging center poses is proposed. Validated across 72 scenarios with motion capture tech...
-
----
-
-### 8. Global Geometry of Orthogonal Foliations in the Control Allocation of Signed-Quadratic Systems
-
-- **Authors**: Antonio Franchi
-- **Category**: `cs.RO`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.01912v1](http://arxiv.org/abs/2604.01912v1)
-- **PDF**: [https://arxiv.org/pdf/2604.01912v1.pdf](https://arxiv.org/pdf/2604.01912v1.pdf)
-- **Abstract**: This work formalizes the differential topology of redundancy resolution for systems governed by signed-quadratic actuation maps. By analyzing the minimally redundant case, the global topology of the continuous fiber bundle defining the nonlinear actuation null-space is established. The distribution orthogonal to these fibers is proven to be globally integrable and governed by an exact logarithmic potential field. This field foliates the actuator space, inducing a structural stratification of all...
 
 ---
 
