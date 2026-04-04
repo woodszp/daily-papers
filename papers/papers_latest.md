@@ -6,11 +6,11 @@ Last updated: 2026-04-04
 
 ## 📊 Summary
 
-Total papers found: **98**
+Total papers found: **89**
 
 ---
 
-## 🎯 LLM Quantization (88)
+## 🎯 LLM Quantization (80)
 
 ### 1. Steerable Visual Representations
 
@@ -234,7 +234,7 @@ Total papers found: **98**
 ---
 
 
-*... and 68 more papers in this direction*
+*... and 60 more papers in this direction*
 
 
 ## 📱 Edge Deployment (3)
@@ -273,7 +273,7 @@ Total papers found: **98**
 ---
 
 
-## 🚁 UAV Vision (7)
+## 🚁 UAV Vision (6)
 
 ### 1. CoRegOVCD: Consistency-Regularized Open-Vocabulary Change Detection
 
@@ -308,18 +308,7 @@ Total papers found: **98**
 
 ---
 
-### 4. ProDiG: Progressive Diffusion-Guided Gaussian Splatting for Aerial to Ground Reconstruction
-
-- **Authors**: Sirshapan Mitra, Yogesh S. Rawat
-- **Category**: `cs.CV`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02003v1](http://arxiv.org/abs/2604.02003v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02003v1.pdf](https://arxiv.org/pdf/2604.02003v1.pdf)
-- **Abstract**: Generating ground-level views and coherent 3D site models from aerial-only imagery is challenging due to extreme viewpoint changes, missing intermediate observations, and large scale variations. Existing methods either refine renderings post-hoc, often producing geometrically inconsistent results, or rely on multi-altitude ground-truth, which is rarely available. Gaussian Splatting and diffusion-based refinements improve fidelity under small variations but fail under wide aerial-to-ground gaps. ...
-
----
-
-### 5. IndoorCrowd: A Multi-Scene Dataset for Human Detection, Segmentation, and Tracking with an Automated Annotation Pipeline
+### 4. IndoorCrowd: A Multi-Scene Dataset for Human Detection, Segmentation, and Tracking with an Automated Annotation Pipeline
 
 - **Authors**: Sebastian-Ion Nae, Radu Moldoveanu, Alexandra Stefania Ghita, Adina Magda Florea
 - **Category**: `cs.LG`
@@ -330,7 +319,7 @@ Total papers found: **98**
 
 ---
 
-### 6. PRO-SPECT: Probabilistically Safe Scalable Planning for Energy-Aware Coordinated UAV-UGV Teams in Stochastic Environments
+### 5. PRO-SPECT: Probabilistically Safe Scalable Planning for Energy-Aware Coordinated UAV-UGV Teams in Stochastic Environments
 
 - **Authors**: Roger Fowler, Cahit Ikbal Er, Benjamin Johnsenberg, Yasin Yazicioglu
 - **Category**: `cs.RO`
@@ -341,7 +330,7 @@ Total papers found: **98**
 
 ---
 
-### 7. ROS 2-Based LiDAR Perception Framework for Mobile Robots in Dynamic Production Environments, Utilizing Synthetic Data Generation, Transformation-Equivariant 3D Detection and Multi-Object Tracking
+### 6. ROS 2-Based LiDAR Perception Framework for Mobile Robots in Dynamic Production Environments, Utilizing Synthetic Data Generation, Transformation-Equivariant 3D Detection and Multi-Object Tracking
 
 - **Authors**: Lukas Bergs, Tan Chung, Marmik Thakkar, Alexander Moriz, Amon Göppert
 - **Category**: `cs.RO`
