@@ -6,11 +6,11 @@ Last updated: 2026-04-04
 
 ## 📊 Summary
 
-Total papers found: **89**
+Total papers found: **78**
 
 ---
 
-## 🎯 LLM Quantization (80)
+## 🎯 LLM Quantization (73)
 
 ### 1. Steerable Visual Representations
 
@@ -234,10 +234,10 @@ Total papers found: **89**
 ---
 
 
-*... and 60 more papers in this direction*
+*... and 53 more papers in this direction*
 
 
-## 📱 Edge Deployment (3)
+## 📱 Edge Deployment (2)
 
 ### 1. Diff-KD: Diffusion-based Knowledge Distillation for Collaborative Perception under Corruptions
 
@@ -261,19 +261,8 @@ Total papers found: **89**
 
 ---
 
-### 3. Bridging Discrete Planning and Continuous Execution for Redundant Robot
 
-- **Authors**: Teng Yan, Yue Yu, Yihan Liu, Bingzhuo Zhong
-- **Category**: `cs.RO`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02021v1](http://arxiv.org/abs/2604.02021v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02021v1.pdf](https://arxiv.org/pdf/2604.02021v1.pdf)
-- **Abstract**: Voxel-grid reinforcement learning is widely adopted for path planning in redundant manipulators due to its simplicity and reproducibility. However, direct execution through point-wise numerical inverse kinematics on 7-DoF arms often yields step-size jitter, abrupt joint transitions, and instability near singular configurations. This work proposes a bridging framework between discrete planning and continuous execution without modifying the discrete planner itself. On the planning side, step-norma...
-
----
-
-
-## 🚁 UAV Vision (6)
+## 🚁 UAV Vision (3)
 
 ### 1. CoRegOVCD: Consistency-Regularized Open-Vocabulary Change Detection
 
@@ -286,40 +275,7 @@ Total papers found: **89**
 
 ---
 
-### 2. IndoorCrowd: A Multi-Scene Dataset for Human Detection, Segmentation, and Tracking with an Automated Annotation Pipeline
-
-- **Authors**: Sebastian-Ion Nae, Radu Moldoveanu, Alexandra Stefania Ghita, Adina Magda Florea
-- **Category**: `cs.CV`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02032v1](http://arxiv.org/abs/2604.02032v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02032v1.pdf](https://arxiv.org/pdf/2604.02032v1.pdf)
-- **Abstract**: Understanding human behaviour in crowded indoor environments is central to surveillance, smart buildings, and human-robot interaction, yet existing datasets rarely capture real-world indoor complexity at scale. We introduce IndoorCrowd, a multi-scene dataset for indoor human detection, instance segmentation, and multi-object tracking, collected across four campus locations (ACS-EC, ACS-EG, IE-Central, R-Central). It comprises $31$ videos ($9{,}913$ frames at $5$fps) with human-verified, per-inst...
-
----
-
-### 3. Decouple and Rectify: Semantics-Preserving Structural Enhancement for Open-Vocabulary Remote Sensing Segmentation
-
-- **Authors**: Jie Feng, Fengze Li, Junpeng Zhang, Siyu Chen, Yuping Liang
-- **Category**: `cs.CV`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02010v1](http://arxiv.org/abs/2604.02010v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02010v1.pdf](https://arxiv.org/pdf/2604.02010v1.pdf)
-- **Abstract**: Open-vocabulary semantic segmentation in the remote sensing (RS) field requires both language-aligned recognition and fine-grained spatial delineation. Although CLIP offers robust semantic generalization, its global-aligned visual representations inherently struggle to capture structural details. Recent methods attempt to compensate for this by introducing RS-pretrained DINO features. However, these methods treat CLIP representations as a monolithic semantic space and cannot localize where struc...
-
----
-
-### 4. IndoorCrowd: A Multi-Scene Dataset for Human Detection, Segmentation, and Tracking with an Automated Annotation Pipeline
-
-- **Authors**: Sebastian-Ion Nae, Radu Moldoveanu, Alexandra Stefania Ghita, Adina Magda Florea
-- **Category**: `cs.LG`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02032v1](http://arxiv.org/abs/2604.02032v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02032v1.pdf](https://arxiv.org/pdf/2604.02032v1.pdf)
-- **Abstract**: Understanding human behaviour in crowded indoor environments is central to surveillance, smart buildings, and human-robot interaction, yet existing datasets rarely capture real-world indoor complexity at scale. We introduce IndoorCrowd, a multi-scene dataset for indoor human detection, instance segmentation, and multi-object tracking, collected across four campus locations (ACS-EC, ACS-EG, IE-Central, R-Central). It comprises $31$ videos ($9{,}913$ frames at $5$fps) with human-verified, per-inst...
-
----
-
-### 5. PRO-SPECT: Probabilistically Safe Scalable Planning for Energy-Aware Coordinated UAV-UGV Teams in Stochastic Environments
+### 2. PRO-SPECT: Probabilistically Safe Scalable Planning for Energy-Aware Coordinated UAV-UGV Teams in Stochastic Environments
 
 - **Authors**: Roger Fowler, Cahit Ikbal Er, Benjamin Johnsenberg, Yasin Yazicioglu
 - **Category**: `cs.RO`
@@ -330,7 +286,7 @@ Total papers found: **89**
 
 ---
 
-### 6. ROS 2-Based LiDAR Perception Framework for Mobile Robots in Dynamic Production Environments, Utilizing Synthetic Data Generation, Transformation-Equivariant 3D Detection and Multi-Object Tracking
+### 3. ROS 2-Based LiDAR Perception Framework for Mobile Robots in Dynamic Production Environments, Utilizing Synthetic Data Generation, Transformation-Equivariant 3D Detection and Multi-Object Tracking
 
 - **Authors**: Lukas Bergs, Tan Chung, Marmik Thakkar, Alexander Moriz, Amon Göppert
 - **Category**: `cs.RO`
