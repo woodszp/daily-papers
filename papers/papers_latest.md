@@ -6,11 +6,11 @@ Last updated: 2026-04-04
 
 ## 📊 Summary
 
-Total papers found: **63**
+Total papers found: **53**
 
 ---
 
-## 🎯 LLM Quantization (59)
+## 🎯 LLM Quantization (51)
 
 ### 1. Steerable Visual Representations
 
@@ -199,42 +199,41 @@ Total papers found: **63**
 
 ---
 
-### 18. TRACE-Bot: Detecting Emerging LLM-Driven Social Bots via Implicit Semantic Representations and AIGC-Enhanced Behavioral Patterns
+### 18. Batched Contextual Reinforcement: A Task-Scaling Law for Efficient Reasoning
 
-- **Authors**: Zhongbo Wang, Zhiyu Lin, Zhu Wang, Haizhou Wang
-- **Category**: `cs.AI`
+- **Authors**: Bangji Yang, Hongbo Ma, Jiajun Fan, Ge Liu
+- **Category**: `cs.CL`
 - **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02147v1](http://arxiv.org/abs/2604.02147v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02147v1.pdf](https://arxiv.org/pdf/2604.02147v1.pdf)
-- **Abstract**: Large Language Model-driven (LLM-driven) social bots pose a growing threat to online discourse by generating human-like content that evades conventional detection. Existing methods suffer from limited detection accuracy due to overreliance on single-modality signals, insufficient sensitivity to the specific generative patterns of Artificial Intelligence-Generated Content (AIGC), and a failure to adequately model the interplay between linguistic patterns and behavioral dynamics. To address these ...
+- **arXiv**: [http://arxiv.org/abs/2604.02322v1](http://arxiv.org/abs/2604.02322v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02322v1.pdf](https://arxiv.org/pdf/2604.02322v1.pdf)
+- **Abstract**: Large Language Models employing Chain-of-Thought reasoning achieve strong performance but suffer from excessive token consumption that inflates inference costs. Existing efficiency methods such as explicit length penalties, difficulty estimators, or multi-stage curricula either degrade reasoning quality or require complex training pipelines. We introduce Batched Contextual Reinforcement, a minimalist, single-stage training paradigm that unlocks efficient reasoning through a simple structural mod...
 
 ---
 
-### 19. MTI: A Behavior-Based Temperament Profiling System for AI Agents
+### 19. No Single Best Model for Diversity: Learning a Router for Sample Diversity
 
-- **Authors**: Jihoon Jeong
-- **Category**: `cs.AI`
+- **Authors**: Yuhan Liu, Fangyuan Xu, Vishakh Padmakumar, Daphne Ippolito, Eunsol Choi
+- **Category**: `cs.CL`
 - **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02145v1](http://arxiv.org/abs/2604.02145v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02145v1.pdf](https://arxiv.org/pdf/2604.02145v1.pdf)
-- **Abstract**: AI models of equivalent capability can exhibit fundamentally different behavioral patterns, yet no standardized instrument exists to measure these dispositional differences. Existing approaches either borrow human personality dimensions and rely on self-report (which diverges from actual behavior in LLMs) or treat behavioral variation as a defect rather than a trait.
-  We introduce the Model Temperament Index (MTI), a behavior-based profiling system that measures AI agent temperament across four...
+- **arXiv**: [http://arxiv.org/abs/2604.02319v1](http://arxiv.org/abs/2604.02319v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02319v1.pdf](https://arxiv.org/pdf/2604.02319v1.pdf)
+- **Abstract**: When posed with prompts that permit a large number of valid answers, comprehensively generating them is the first step towards satisfying a wide range of users. In this paper, we study methods to elicit a comprehensive set of valid responses. To evaluate this, we introduce \textbf{diversity coverage}, a metric that measures the total quality scores assigned to each \textbf{unique} answer in the predicted answer set relative to the best possible answer set with the same number of answers. Using t...
 
 ---
 
-### 20. LLM-as-a-Judge for Time Series Explanations
+### 20. De Jure: Iterative LLM Self-Refinement for Structured Extraction of Regulatory Rules
 
-- **Authors**: Preetham Sivalingam, Murari Mandal, Saurabh Deshpande, Dhruv Kumar
-- **Category**: `cs.AI`
+- **Authors**: Keerat Guliani, Deepkamal Gill, David Landsman, Nima Eshraghi, Krishna Kumar
+- **Category**: `cs.CL`
 - **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02118v1](http://arxiv.org/abs/2604.02118v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02118v1.pdf](https://arxiv.org/pdf/2604.02118v1.pdf)
-- **Abstract**: Evaluating factual correctness of LLM generated natural language explanations grounded in time series data remains an open challenge. Although modern models generate textual interpretations of numerical signals, existing evaluation methods are limited: reference based similarity metrics and consistency checking models require ground truth explanations, while traditional time series methods operate purely on numerical values and cannot assess free form textual reasoning. Thus, no general purpose ...
+- **arXiv**: [http://arxiv.org/abs/2604.02276v1](http://arxiv.org/abs/2604.02276v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02276v1.pdf](https://arxiv.org/pdf/2604.02276v1.pdf)
+- **Abstract**: Regulatory documents encode legally binding obligations that LLM-based systems must respect. Yet converting dense, hierarchically structured legal text into machine-readable rules remains a costly, expert-intensive process. We present De Jure, a fully automated, domain-agnostic pipeline for extracting structured regulatory rules from raw documents, requiring no human annotation, domain-specific prompting, or annotated gold data. De Jure operates through four sequential stages: normalization of s...
 
 ---
 
 
-*... and 39 more papers in this direction*
+*... and 31 more papers in this direction*
 
 
 ## 📱 Edge Deployment (1)
@@ -251,7 +250,7 @@ Total papers found: **63**
 ---
 
 
-## 🚁 UAV Vision (3)
+## 🚁 UAV Vision (1)
 
 ### 1. CoRegOVCD: Consistency-Regularized Open-Vocabulary Change Detection
 
@@ -261,28 +260,6 @@ Total papers found: **63**
 - **arXiv**: [http://arxiv.org/abs/2604.02160v1](http://arxiv.org/abs/2604.02160v1)
 - **PDF**: [https://arxiv.org/pdf/2604.02160v1.pdf](https://arxiv.org/pdf/2604.02160v1.pdf)
 - **Abstract**: Remote sensing change detection (CD) aims to identify where land-cover semantics change across time, but most existing methods still assume a fixed label space and therefore cannot answer arbitrary user-defined queries. Open-vocabulary change detection (OVCD) instead asks for the change mask of a queried concept. In the fully training-free setting, however, dense concept responses are difficult to compare directly across dates: appearance variation, weak cross-concept competition, and the spatia...
-
----
-
-### 2. PRO-SPECT: Probabilistically Safe Scalable Planning for Energy-Aware Coordinated UAV-UGV Teams in Stochastic Environments
-
-- **Authors**: Roger Fowler, Cahit Ikbal Er, Benjamin Johnsenberg, Yasin Yazicioglu
-- **Category**: `cs.RO`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02142v1](http://arxiv.org/abs/2604.02142v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02142v1.pdf](https://arxiv.org/pdf/2604.02142v1.pdf)
-- **Abstract**: We consider energy-aware planning for an unmanned aerial vehicle (UAV) and unmanned ground vehicle (UGV) team operating in a stochastic environment. The UAV must visit a set of air points in minimum time while respecting energy constraints, relying on the UGV as a mobile charging station. Unlike prior work that assumed deterministic travel times or used fixed robustness margins, we model travel times as random variables and bound the probability of failure (energy depletion) across the entire mi...
-
----
-
-### 3. ROS 2-Based LiDAR Perception Framework for Mobile Robots in Dynamic Production Environments, Utilizing Synthetic Data Generation, Transformation-Equivariant 3D Detection and Multi-Object Tracking
-
-- **Authors**: Lukas Bergs, Tan Chung, Marmik Thakkar, Alexander Moriz, Amon Göppert
-- **Category**: `cs.RO`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02109v1](http://arxiv.org/abs/2604.02109v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02109v1.pdf](https://arxiv.org/pdf/2604.02109v1.pdf)
-- **Abstract**: Adaptive robots in dynamic production environments require robust perception capabilities, including 6D pose estimation and multi-object tracking. To address limitations in real-world data dependency, noise robustness, and spatiotemporal consistency, a LiDAR framework based on the Robot Operating System integrating a synthetic-data-trained Transformation-Equivariant 3D Detection with multi-object-tracking leveraging center poses is proposed. Validated across 72 scenarios with motion capture tech...
 
 ---
 
