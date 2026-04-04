@@ -6,7 +6,7 @@ Last updated: 2026-04-04
 
 ## 📊 Summary
 
-Total papers found: **130**
+Total papers found: **129**
 
 ---
 
@@ -297,7 +297,7 @@ Total papers found: **130**
 ---
 
 
-## 🚁 UAV Vision (10)
+## 🚁 UAV Vision (9)
 
 ### 1. CoRegOVCD: Consistency-Regularized Open-Vocabulary Change Detection
 
@@ -354,19 +354,7 @@ Total papers found: **130**
 
 ---
 
-### 6. Non-monotonicity in Conformal Risk Control
-
-- **Authors**: Tareq Aldirawi, Yun Li, Wenge Guo
-- **Category**: `stat.ML`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.01502v1](http://arxiv.org/abs/2604.01502v1)
-- **PDF**: [https://arxiv.org/pdf/2604.01502v1.pdf](https://arxiv.org/pdf/2604.01502v1.pdf)
-- **Abstract**: Conformal risk control (CRC) provides distribution-free guarantees for controlling the expected loss at a user-specified level. Existing theory typically assumes that the loss decreases monotonically with a tuning parameter that governs the size of the prediction set. This assumption is often violated in practice, where losses may behave non-monotonically due to competing objectives such as coverage and efficiency.
-  We study CRC under non-monotone loss functions when the tuning parameter is sel...
-
----
-
-### 7. PRO-SPECT: Probabilistically Safe Scalable Planning for Energy-Aware Coordinated UAV-UGV Teams in Stochastic Environments
+### 6. PRO-SPECT: Probabilistically Safe Scalable Planning for Energy-Aware Coordinated UAV-UGV Teams in Stochastic Environments
 
 - **Authors**: Roger Fowler, Cahit Ikbal Er, Benjamin Johnsenberg, Yasin Yazicioglu
 - **Category**: `cs.RO`
@@ -377,7 +365,7 @@ Total papers found: **130**
 
 ---
 
-### 8. ROS 2-Based LiDAR Perception Framework for Mobile Robots in Dynamic Production Environments, Utilizing Synthetic Data Generation, Transformation-Equivariant 3D Detection and Multi-Object Tracking
+### 7. ROS 2-Based LiDAR Perception Framework for Mobile Robots in Dynamic Production Environments, Utilizing Synthetic Data Generation, Transformation-Equivariant 3D Detection and Multi-Object Tracking
 
 - **Authors**: Lukas Bergs, Tan Chung, Marmik Thakkar, Alexander Moriz, Amon Göppert
 - **Category**: `cs.RO`
@@ -388,7 +376,7 @@ Total papers found: **130**
 
 ---
 
-### 9. Global Geometry of Orthogonal Foliations in the Control Allocation of Signed-Quadratic Systems
+### 8. Global Geometry of Orthogonal Foliations in the Control Allocation of Signed-Quadratic Systems
 
 - **Authors**: Antonio Franchi
 - **Category**: `cs.RO`
@@ -399,7 +387,7 @@ Total papers found: **130**
 
 ---
 
-### 10. A Graph Neural Network Approach for Solving the Ranked Assignment Problem in Multi-Object Tracking
+### 9. A Graph Neural Network Approach for Solving the Ranked Assignment Problem in Multi-Object Tracking
 
 - **Authors**: Robin Dehler, Martin Herrmann, Jan Strohbeck, Michael Buchholz
 - **Category**: `cs.RO`
