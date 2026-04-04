@@ -6,11 +6,11 @@ Last updated: 2026-04-05
 
 ## 📊 Summary
 
-Total papers found: **24**
+Total papers found: **21**
 
 ---
 
-## 🎯 LLM Quantization (23)
+## 🎯 LLM Quantization (20)
 
 ### 1. Steerable Visual Representations
 
@@ -78,18 +78,7 @@ Total papers found: **24**
 
 ---
 
-### 7. De Jure: Iterative LLM Self-Refinement for Structured Extraction of Regulatory Rules
-
-- **Authors**: Keerat Guliani, Deepkamal Gill, David Landsman, Nima Eshraghi, Krishna Kumar
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02276v1](http://arxiv.org/abs/2604.02276v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02276v1.pdf](https://arxiv.org/pdf/2604.02276v1.pdf)
-- **Abstract**: Regulatory documents encode legally binding obligations that LLM-based systems must respect. Yet converting dense, hierarchically structured legal text into machine-readable rules remains a costly, expert-intensive process. We present De Jure, a fully automated, domain-agnostic pipeline for extracting structured regulatory rules from raw documents, requiring no human annotation, domain-specific prompting, or annotated gold data. De Jure operates through four sequential stages: normalization of s...
-
----
-
-### 8. Batched Contextual Reinforcement: A Task-Scaling Law for Efficient Reasoning
+### 7. Batched Contextual Reinforcement: A Task-Scaling Law for Efficient Reasoning
 
 - **Authors**: Bangji Yang, Hongbo Ma, Jiajun Fan, Ge Liu
 - **Category**: `cs.CL`
@@ -100,7 +89,7 @@ Total papers found: **24**
 
 ---
 
-### 9. No Single Best Model for Diversity: Learning a Router for Sample Diversity
+### 8. No Single Best Model for Diversity: Learning a Router for Sample Diversity
 
 - **Authors**: Yuhan Liu, Fangyuan Xu, Vishakh Padmakumar, Daphne Ippolito, Eunsol Choi
 - **Category**: `cs.CL`
@@ -111,18 +100,7 @@ Total papers found: **24**
 
 ---
 
-### 10. De Jure: Iterative LLM Self-Refinement for Structured Extraction of Regulatory Rules
-
-- **Authors**: Keerat Guliani, Deepkamal Gill, David Landsman, Nima Eshraghi, Krishna Kumar
-- **Category**: `cs.CL`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02276v1](http://arxiv.org/abs/2604.02276v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02276v1.pdf](https://arxiv.org/pdf/2604.02276v1.pdf)
-- **Abstract**: Regulatory documents encode legally binding obligations that LLM-based systems must respect. Yet converting dense, hierarchically structured legal text into machine-readable rules remains a costly, expert-intensive process. We present De Jure, a fully automated, domain-agnostic pipeline for extracting structured regulatory rules from raw documents, requiring no human annotation, domain-specific prompting, or annotated gold data. De Jure operates through four sequential stages: normalization of s...
-
----
-
-### 11. Generative World Renderer
+### 9. Generative World Renderer
 
 - **Authors**: Zheng-Hui Huang, Zhixiang Wang, Jiaming Tan, Ruihan Yu, Yidan Zhang
 - **Category**: `cs.CV`
@@ -133,7 +111,7 @@ Total papers found: **24**
 
 ---
 
-### 12. Modulate-and-Map: Crossmodal Feature Mapping with Cross-View Modulation for 3D Anomaly Detection
+### 10. Modulate-and-Map: Crossmodal Feature Mapping with Cross-View Modulation for 3D Anomaly Detection
 
 - **Authors**: Alex Costanzino, Pierluigi Zama Ramirez, Giuseppe Lisanti, Luigi Di Stefano
 - **Category**: `cs.CV`
@@ -144,7 +122,7 @@ Total papers found: **24**
 
 ---
 
-### 13. Steerable Visual Representations
+### 11. Steerable Visual Representations
 
 - **Authors**: Jona Ruthardt, Manu Gaur, Deva Ramanan, Makarand Tapaswi, Yuki M. Asano
 - **Category**: `cs.CV`
@@ -155,7 +133,7 @@ Total papers found: **24**
 
 ---
 
-### 14. Large-scale Codec Avatars: The Unreasonable Effectiveness of Large-scale Avatar Pretraining
+### 12. Large-scale Codec Avatars: The Unreasonable Effectiveness of Large-scale Avatar Pretraining
 
 - **Authors**: Junxuan Li, Rawal Khirodkar, Chengan He, Zhongshi Jiang, Giljoo Nam
 - **Category**: `cs.CV`
@@ -166,7 +144,7 @@ Total papers found: **24**
 
 ---
 
-### 15. Stop Wandering: Efficient Vision-Language Navigation via Metacognitive Reasoning
+### 13. Stop Wandering: Efficient Vision-Language Navigation via Metacognitive Reasoning
 
 - **Authors**: Xueying Li, Feng Lyu, Hao Wu, Mingliu Liu, Jia-Nan Liu
 - **Category**: `cs.CV`
@@ -177,7 +155,7 @@ Total papers found: **24**
 
 ---
 
-### 16. A Simple Baseline for Streaming Video Understanding
+### 14. A Simple Baseline for Streaming Video Understanding
 
 - **Authors**: Yujiao Shen, Shulin Tian, Jingkang Yang, Ziwei Liu
 - **Category**: `cs.CV`
@@ -188,7 +166,7 @@ Total papers found: **24**
 
 ---
 
-### 17. VOID: Video Object and Interaction Deletion
+### 15. VOID: Video Object and Interaction Deletion
 
 - **Authors**: Saman Motamed, William Harvey, Benjamin Klein, Luc Van Gool, Zhuoning Yuan
 - **Category**: `cs.CV`
@@ -199,7 +177,7 @@ Total papers found: **24**
 
 ---
 
-### 18. Omni123: Exploring 3D Native Foundation Models with Limited 3D Data by Unifying Text to 2D and 3D Generation
+### 16. Omni123: Exploring 3D Native Foundation Models with Limited 3D Data by Unifying Text to 2D and 3D Generation
 
 - **Authors**: Chongjie Ye, Cheng Cao, Chuanyu Pan, Yiming Hao, Yihao Zhi
 - **Category**: `cs.CV`
@@ -210,7 +188,7 @@ Total papers found: **24**
 
 ---
 
-### 19. Batched Contextual Reinforcement: A Task-Scaling Law for Efficient Reasoning
+### 17. Batched Contextual Reinforcement: A Task-Scaling Law for Efficient Reasoning
 
 - **Authors**: Bangji Yang, Hongbo Ma, Jiajun Fan, Ge Liu
 - **Category**: `cs.LG`
@@ -221,7 +199,7 @@ Total papers found: **24**
 
 ---
 
-### 20. Taming the Exponential: A Fast Softmax Surrogate for Integer-Native Edge Inference
+### 18. Taming the Exponential: A Fast Softmax Surrogate for Integer-Native Edge Inference
 
 - **Authors**: Dimitrios Danopoulos, Enrico Lupi, Michael Kagan, Maurizio Pierini
 - **Category**: `cs.LG`
@@ -232,8 +210,27 @@ Total papers found: **24**
 
 ---
 
+### 19. Unifying Group-Relative and Self-Distillation Policy Optimization via Sample Routing
 
-*... and 3 more papers in this direction*
+- **Authors**: Gengsheng Li, Tianyu Yang, Junfeng Fang, Mingyang Song, Mao Zheng
+- **Category**: `cs.LG`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02288v1](http://arxiv.org/abs/2604.02288v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02288v1.pdf](https://arxiv.org/pdf/2604.02288v1.pdf)
+- **Abstract**: Reinforcement learning with verifiable rewards (RLVR) has become a standard paradigm for post-training large language models. While Group Relative Policy Optimization (GRPO) is widely adopted, its coarse credit assignment uniformly penalizes failed rollouts, lacking the token-level focus needed to efficiently address specific deviations. Self-Distillation Policy Optimization (SDPO) addresses this by providing denser, more targeted logit-level supervision that facilitates rapid early improvement,...
+
+---
+
+### 20. Stop Wandering: Efficient Vision-Language Navigation via Metacognitive Reasoning
+
+- **Authors**: Xueying Li, Feng Lyu, Hao Wu, Mingliu Liu, Jia-Nan Liu
+- **Category**: `cs.RO`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02318v1](http://arxiv.org/abs/2604.02318v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02318v1.pdf](https://arxiv.org/pdf/2604.02318v1.pdf)
+- **Abstract**: Training-free Vision-Language Navigation (VLN) agents powered by foundation models can follow instructions and explore 3D environments. However, existing approaches rely on greedy frontier selection and passive spatial memory, leading to inefficient behaviors such as local oscillation and redundant revisiting. We argue that this stems from a lack of metacognitive capabilities: the agent cannot monitor its exploration progress, diagnose strategy failures, or adapt accordingly. To address this, we...
+
+---
 
 
 ## 📱 Edge Deployment (1)
