@@ -6,11 +6,11 @@ Last updated: 2026-04-05
 
 ## 📊 Summary
 
-Total papers found: **32**
+Total papers found: **24**
 
 ---
 
-## 🎯 LLM Quantization (31)
+## 🎯 LLM Quantization (23)
 
 ### 1. Steerable Visual Representations
 
@@ -89,29 +89,7 @@ Total papers found: **32**
 
 ---
 
-### 8. Do Emotions in Prompts Matter? Effects of Emotional Framing on Large Language Models
-
-- **Authors**: Minda Zhao, Yutong Yang, Chufei Peng, Rachel Gonsalves, Weiyue Li
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02236v1](http://arxiv.org/abs/2604.02236v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02236v1.pdf](https://arxiv.org/pdf/2604.02236v1.pdf)
-- **Abstract**: Emotional tone is pervasive in human communication, yet its influence on large language model (LLM) behaviour remains unclear. Here, we examine how first-person emotional framing in user-side queries affect LLM performance across six benchmark domains, including mathematical reasoning, medical question answering, reading comprehension, commonsense reasoning and social inference. Across models and tasks, static emotional prefixes usually produce only small changes in accuracy, suggesting that aff...
-
----
-
-### 9. Answering the Wrong Question: Reasoning Trace Inversion for Abstention in LLMs
-
-- **Authors**: Abinitha Gourabathina, Inkit Padhi, Manish Nagireddy, Subhajit Chaudhury, Prasanna Sattigeri
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02230v1](http://arxiv.org/abs/2604.02230v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02230v1.pdf](https://arxiv.org/pdf/2604.02230v1.pdf)
-- **Abstract**: For Large Language Models (LLMs) to be reliably deployed, models must effectively know when not to answer: abstain. Reasoning models, in particular, have gained attention for impressive performance on complex tasks. However, reasoning models have been shown to have worse abstention abilities. Taking the vulnerabilities of reasoning models into account, we propose our Query Misalignment Framework. Hallucinations resulting in failed abstention can be reinterpreted as LLMs answering the wrong quest...
-
----
-
-### 10. Batched Contextual Reinforcement: A Task-Scaling Law for Efficient Reasoning
+### 8. Batched Contextual Reinforcement: A Task-Scaling Law for Efficient Reasoning
 
 - **Authors**: Bangji Yang, Hongbo Ma, Jiajun Fan, Ge Liu
 - **Category**: `cs.CL`
@@ -122,7 +100,7 @@ Total papers found: **32**
 
 ---
 
-### 11. No Single Best Model for Diversity: Learning a Router for Sample Diversity
+### 9. No Single Best Model for Diversity: Learning a Router for Sample Diversity
 
 - **Authors**: Yuhan Liu, Fangyuan Xu, Vishakh Padmakumar, Daphne Ippolito, Eunsol Choi
 - **Category**: `cs.CL`
@@ -133,7 +111,7 @@ Total papers found: **32**
 
 ---
 
-### 12. De Jure: Iterative LLM Self-Refinement for Structured Extraction of Regulatory Rules
+### 10. De Jure: Iterative LLM Self-Refinement for Structured Extraction of Regulatory Rules
 
 - **Authors**: Keerat Guliani, Deepkamal Gill, David Landsman, Nima Eshraghi, Krishna Kumar
 - **Category**: `cs.CL`
@@ -144,7 +122,7 @@ Total papers found: **32**
 
 ---
 
-### 13. Generative World Renderer
+### 11. Generative World Renderer
 
 - **Authors**: Zheng-Hui Huang, Zhixiang Wang, Jiaming Tan, Ruihan Yu, Yidan Zhang
 - **Category**: `cs.CV`
@@ -155,7 +133,7 @@ Total papers found: **32**
 
 ---
 
-### 14. Modulate-and-Map: Crossmodal Feature Mapping with Cross-View Modulation for 3D Anomaly Detection
+### 12. Modulate-and-Map: Crossmodal Feature Mapping with Cross-View Modulation for 3D Anomaly Detection
 
 - **Authors**: Alex Costanzino, Pierluigi Zama Ramirez, Giuseppe Lisanti, Luigi Di Stefano
 - **Category**: `cs.CV`
@@ -166,7 +144,7 @@ Total papers found: **32**
 
 ---
 
-### 15. Steerable Visual Representations
+### 13. Steerable Visual Representations
 
 - **Authors**: Jona Ruthardt, Manu Gaur, Deva Ramanan, Makarand Tapaswi, Yuki M. Asano
 - **Category**: `cs.CV`
@@ -177,7 +155,7 @@ Total papers found: **32**
 
 ---
 
-### 16. Large-scale Codec Avatars: The Unreasonable Effectiveness of Large-scale Avatar Pretraining
+### 14. Large-scale Codec Avatars: The Unreasonable Effectiveness of Large-scale Avatar Pretraining
 
 - **Authors**: Junxuan Li, Rawal Khirodkar, Chengan He, Zhongshi Jiang, Giljoo Nam
 - **Category**: `cs.CV`
@@ -188,7 +166,7 @@ Total papers found: **32**
 
 ---
 
-### 17. Stop Wandering: Efficient Vision-Language Navigation via Metacognitive Reasoning
+### 15. Stop Wandering: Efficient Vision-Language Navigation via Metacognitive Reasoning
 
 - **Authors**: Xueying Li, Feng Lyu, Hao Wu, Mingliu Liu, Jia-Nan Liu
 - **Category**: `cs.CV`
@@ -199,7 +177,7 @@ Total papers found: **32**
 
 ---
 
-### 18. A Simple Baseline for Streaming Video Understanding
+### 16. A Simple Baseline for Streaming Video Understanding
 
 - **Authors**: Yujiao Shen, Shulin Tian, Jingkang Yang, Ziwei Liu
 - **Category**: `cs.CV`
@@ -210,7 +188,7 @@ Total papers found: **32**
 
 ---
 
-### 19. VOID: Video Object and Interaction Deletion
+### 17. VOID: Video Object and Interaction Deletion
 
 - **Authors**: Saman Motamed, William Harvey, Benjamin Klein, Luc Van Gool, Zhuoning Yuan
 - **Category**: `cs.CV`
@@ -221,7 +199,7 @@ Total papers found: **32**
 
 ---
 
-### 20. Omni123: Exploring 3D Native Foundation Models with Limited 3D Data by Unifying Text to 2D and 3D Generation
+### 18. Omni123: Exploring 3D Native Foundation Models with Limited 3D Data by Unifying Text to 2D and 3D Generation
 
 - **Authors**: Chongjie Ye, Cheng Cao, Chuanyu Pan, Yiming Hao, Yihao Zhi
 - **Category**: `cs.CV`
@@ -232,8 +210,30 @@ Total papers found: **32**
 
 ---
 
+### 19. Batched Contextual Reinforcement: A Task-Scaling Law for Efficient Reasoning
 
-*... and 11 more papers in this direction*
+- **Authors**: Bangji Yang, Hongbo Ma, Jiajun Fan, Ge Liu
+- **Category**: `cs.LG`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02322v1](http://arxiv.org/abs/2604.02322v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02322v1.pdf](https://arxiv.org/pdf/2604.02322v1.pdf)
+- **Abstract**: Large Language Models employing Chain-of-Thought reasoning achieve strong performance but suffer from excessive token consumption that inflates inference costs. Existing efficiency methods such as explicit length penalties, difficulty estimators, or multi-stage curricula either degrade reasoning quality or require complex training pipelines. We introduce Batched Contextual Reinforcement, a minimalist, single-stage training paradigm that unlocks efficient reasoning through a simple structural mod...
+
+---
+
+### 20. Taming the Exponential: A Fast Softmax Surrogate for Integer-Native Edge Inference
+
+- **Authors**: Dimitrios Danopoulos, Enrico Lupi, Michael Kagan, Maurizio Pierini
+- **Category**: `cs.LG`
+- **Published**: 2026-04-02
+- **arXiv**: [http://arxiv.org/abs/2604.02292v1](http://arxiv.org/abs/2604.02292v1)
+- **PDF**: [https://arxiv.org/pdf/2604.02292v1.pdf](https://arxiv.org/pdf/2604.02292v1.pdf)
+- **Abstract**: Softmax can become a computational bottleneck in the Transformer model's Multi-Head Attention (MHA) block, particularly in small models under low-precision inference, where exponentiation and normalization incur significant overhead. As such, we suggest using Head-Calibrated Clipped-Linear Softmax (HCCS), a bounded, monotone surrogate to the exponential softmax function, which uses a clipped linear mapping of the max centered attention logits. This approximation produces a stable probability dis...
+
+---
+
+
+*... and 3 more papers in this direction*
 
 
 ## 📱 Edge Deployment (1)
