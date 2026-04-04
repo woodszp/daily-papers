@@ -6,11 +6,11 @@ Last updated: 2026-04-04
 
 ## 📊 Summary
 
-Total papers found: **123**
+Total papers found: **122**
 
 ---
 
-## 🎯 LLM Quantization (109)
+## 🎯 LLM Quantization (108)
 
 ### 1. Steerable Visual Representations
 
@@ -234,7 +234,7 @@ Total papers found: **123**
 ---
 
 
-*... and 89 more papers in this direction*
+*... and 88 more papers in this direction*
 
 
 ## 📱 Edge Deployment (5)
