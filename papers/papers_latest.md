@@ -6,11 +6,11 @@ Last updated: 2026-04-04
 
 ## 📊 Summary
 
-Total papers found: **78**
+Total papers found: **66**
 
 ---
 
-## 🎯 LLM Quantization (73)
+## 🎯 LLM Quantization (62)
 
 ### 1. Steerable Visual Representations
 
@@ -234,23 +234,12 @@ Total papers found: **78**
 ---
 
 
-*... and 53 more papers in this direction*
+*... and 42 more papers in this direction*
 
 
-## 📱 Edge Deployment (2)
+## 📱 Edge Deployment (1)
 
-### 1. Diff-KD: Diffusion-based Knowledge Distillation for Collaborative Perception under Corruptions
-
-- **Authors**: Pengcheng Lyu, Chaokun Zhang, Gong Chen, Tao Tang, Zhaoxiang Luo
-- **Category**: `cs.AI`
-- **Published**: 2026-04-02
-- **arXiv**: [http://arxiv.org/abs/2604.02061v1](http://arxiv.org/abs/2604.02061v1)
-- **PDF**: [https://arxiv.org/pdf/2604.02061v1.pdf](https://arxiv.org/pdf/2604.02061v1.pdf)
-- **Abstract**: Multi-agent collaborative perception enables autonomous systems to overcome individual sensing limits through collective intelligence. However, real-world sensor and communication corruptions severely undermine this advantage. Crucially, existing approaches treat corruptions as static perturbations or passively conform to corrupted inputs, failing to actively recover the underlying clean semantics. To address this limitation, we introduce Diff-KD, a framework that integrates diffusion-based gene...
-
----
-
-### 2. EventHub: Data Factory for Generalizable Event-Based Stereo Networks without Active Sensors
+### 1. EventHub: Data Factory for Generalizable Event-Based Stereo Networks without Active Sensors
 
 - **Authors**: Luca Bartolomei, Fabio Tosi, Matteo Poggi, Stefano Mattoccia, Guillermo Gallego
 - **Category**: `cs.CV`
